@@ -1,4 +1,15 @@
-export interface WorkInfo {
+interface Profile {
+  icon: string;
+  username: string;
+  url: string;
+}
+
+interface Keyword {
+  name: string;
+  link: string;
+}
+
+export interface Work {
   name: string;
   position: string;
   url: string;
@@ -6,13 +17,7 @@ export interface WorkInfo {
   endDate: string;
   summary: string;
   highlights: string[];
-  keywords: { name: string; link: string }[];
-}
-
-export interface Profile {
-  icon: string;
-  username: string;
-  url: string;
+  keywords: Keyword[];
 }
 
 export interface BasicInfo {
@@ -24,3 +29,15 @@ export interface BasicInfo {
   address: string;
   profiles: Profile[];
 }
+
+export interface Education {
+  area: string;
+  endDate: string;
+  startDate: string;
+  highlights: string[];
+  institution: string;
+  url: string;
+}
+
+export type Awards = string[];
+export type AdditionalExperience = string[];

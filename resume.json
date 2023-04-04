@@ -1,136 +1,119 @@
 {
-    "basics": {
-      "name": "Arabi Alhumsi",
-      "image": "/assets/images/profile-photo.jpeg",
-      "email": "arabi.alhumsi@gmail.com",
-      "phone": "+31 213 460 437",
-      "url": "https://arabi.alhumsi.me",
-      "address": "Utrecht, Netherlands",
-      "profiles": [
-        {
-          "icon": "/assets/images/email.svg",
-          "username": "arabi.alhumsi@gmail.com",
-          "url": "mailto:arabi.alhumsi@gmail.com"
-        },
-        {
-          "icon": "/assets/images/linkedin.svg",
-          "username": "arabyalhomsi",
-          "url": "https://www.linkedin.com/in/arabyalhomsi/"
-        },
-        {
-          "icon": "/assets/images/globe.svg",
-          "username": "arabi.alhumsi.me",
-          "url": "https://arabi.alhumsi.me"
-        },
-        {
-          "icon": "/assets/images/github.svg",
-          "username": "arabyalhomsi",
-          "url": "https://arabi.alhumsi.me"
-        }]
-    },
-    "work": [{
-      "name": "Apple Computer",
-      "position": "Software Engineer, Intern",
-      "url": "https://company.com",
-      "startDate": "May 2016",
+  "awards": [
+    "**Selected to attend a United World College (UWCM)**: Out of 428 applicants from Syria, 14 were chosen in 2016.",
+    "**Horizon Foundation Scholar**: Full scholarship (+70K €) to pay for UWCM and 10 year support after graduation",
+    "**Maastricht University Scholar**: Full scholarship (+80K €) which is given to only 5 people each year.",
+    "**Started writing code at 14 years old**: The first programming language I learned was Pascal",
+    "**Until I was 17, I did  many manual labor jobs to help my family**: bakery, print shop, car wash, sales, handyman, and more."
+  ],
+  "additionalExperience": [
+    "**Selected to attend a United World College (UWCM)**: Out of 428 applicants from Syria, 14 were chosen in 2016.",
+    "**Horizon Foundation Scholar**: Full scholarship (+70K €) to pay for UWCM and 10 year support after graduation",
+    "**Maastricht University Scholar**: Full scholarship (+80K €) which is given to only 5 people each year.",
+    "**Started writing code at 14 years old**: The first programming language I learned was Pascal",
+    "**Until I was 17, I did  many manual labor jobs to help my family**: bakery, print shop, car wash, sales, handyman, and more."
+  ],
+  "basics": {
+    "address": "Utrecht, Netherlands",
+    "email": "arabi.alhumsi@gmail.com",
+    "image": "/assets/images/profile-photo.jpeg",
+    "name": "Arabi Alhumsi",
+    "phone": "+31 213 460 437",
+    "profiles": [
+      {
+        "icon": "/assets/images/email.svg",
+        "url": "mailto:arabi.alhumsi@gmail.com",
+        "username": "arabi.alhumsi@gmail.com"
+      },
+      {
+        "icon": "/assets/images/linkedin.svg",
+        "url": "https://www.linkedin.com/in/arabyalhomsi/",
+        "username": "arabyalhomsi"
+      },
+      {
+        "icon": "/assets/images/globe.svg",
+        "url": "https://arabi.alhumsi.me",
+        "username": "arabi.alhumsi.me"
+      },
+      {
+        "icon": "/assets/images/github.svg",
+        "url": "https://arabi.alhumsi.me",
+        "username": "arabyalhomsi"
+      }
+    ],
+    "url": "https://arabi.alhumsi.me"
+  },
+  "education": [
+    {
+      "area": "Bachelor of Science",
+      "endDate": "July 2021",
+      "highlights": [
+        "DB1101 - Basic SQL"
+      ],
+      "institution": "Maastricht University",
+      "startDate": "September 2018",
+      "url": "https://institution.com/"
+    }
+  ],
+  "work": [
+    {
       "endDate": "April 2018",
-      "summary": "I built features that help people release software more quickly, easily, and effectively.",
       "highlights": [
         "Implemented high-profile features such as Let's Encrypt integration, merge trains, deploy freezes, DORA 4 metrics, and markdown editor keyboard shortcuts",
         "Pushed Release vision forward through in-depth technical and business analysis",
         "Reviewed and guided community contributions",
         "Reviewed and guided community contributions"
       ],
-      "keywords": [{
-        "name": "html",
-        "link": "https://github.com/"
-      }, {
-        "name": "html",
-        "link": "https://github.com/"
-      }]
+      "keywords": [
+        {
+          "link": "https://github.com/",
+          "name": "html"
+        },
+        {
+          "link": "https://github.com/",
+          "name": "html"
+        }
+      ],
+      "name": "Apple Computer",
+      "position": "Software Engineer, Intern",
+      "startDate": "May 2016",
+      "summary": "I built features that help people release software more quickly, easily, and effectively.",
+      "url": "https://company.com"
     },
     {
-      "name": "Apple Computer",
-      "position": "Software Engineer, Intern",
-      "url": "https://company.com",
-      "startDate": "May 2016",
       "endDate": "April 2018",
-      "summary": "I built features that help people release software more quickly, easily, and effectively.",
       "highlights": [
         "Implemented high-profile features such as Let's Encrypt integration, merge trains, deploy freezes, DORA 4 metrics, and markdown editor keyboard shortcuts",
         "Pushed Release vision forward through in-depth technical and business analysis",
         "Reviewed and guided community contributions",
         "Reviewed and guided community contributions"
       ],
-      "keywords": [{
-        "name": "html",
-        "link": "https://github.com/"
-      }, {
-        "name": "html",
-        "link": "https://github.com/"
-      }]
-    }],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
-    "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    }],
-    "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }],
-    "skills": [{
-      "name": "Web Development",
-      "level": "Master",
+      "keywords": [
+        {
+          "link": "https://github.com/",
+          "name": "html"
+        },
+        {
+          "link": "https://github.com/",
+          "name": "html"
+        }
+      ],
+      "name": "Apple Computer",
+      "position": "Software Engineer, Intern",
+      "startDate": "May 2016",
+      "summary": "I built features that help people release software more quickly, easily, and effectively.",
+      "url": "https://company.com"
+    }
+  ],
+  "skills": [
+    {
       "keywords": [
         "HTML",
         "CSS",
         "JavaScript"
-      ]
-    }],
-    "interests": [{
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }],
-    "projects": [{
-      "name": "Project",
-      "description": "Description…",
-      "highlights": [
-        "Won award at AIHacks 2016"
       ],
-      "keywords": [
-        "HTML"
-      ],
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "url": "https://project.com/",
-      "roles": [
-        "Team Lead"
-      ],
-      "entity": "Entity",
-      "type": "application"
-    }]
-  }
+      "level": "Master",
+      "name": "Web Development"
+    }
+  ]
+}

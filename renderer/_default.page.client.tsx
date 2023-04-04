@@ -4,7 +4,7 @@ import React from 'react';
 import { hydrateRoot } from 'react-dom/client';
 import { PageShell } from './PageShell';
 import type { PageContextClient } from './types';
-import { DefaultLayout } from '../layouts/DefaultLayout';
+import { DefaultLayout } from '#root/layouts/DefaultLayout';
 
 // This render() hook only supports SSR, see https://vite-plugin-ssr.com/render-modes for how to modify render() to support SPA
 async function render(pageContext: PageContextClient) {

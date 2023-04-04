@@ -1,14 +1,26 @@
 import resumeJson from '#root/resume.json';
-import { getBasicInfo, getWorkInfo } from '#root/services/ContentLoader';
-import { ResumePageProps } from './types';
+import {
+  getAdditionalExperience,
+  getAwards,
+  getBasicInfo,
+  getEducation,
+  getWork,
+} from '#root/services/ContentLoader';
+import { ResumePageProps } from './index.page';
 
 export function onBeforeRender() {
   const basicInfo = getBasicInfo(resumeJson);
-  const workInfo = getWorkInfo(resumeJson);
+  const work = getWork(resumeJson);
+  const awards = getAwards(resumeJson);
+  const education = getEducation(resumeJson);
+  const additionalExperience = getAdditionalExperience(resumeJson);
 
   const pageProps: ResumePageProps = {
     basicInfo,
-    workInfo,
+    work,
+    awards,
+    education,
+    additionalExperience,
   };
 
   return {

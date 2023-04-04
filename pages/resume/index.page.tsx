@@ -1,12 +1,36 @@
 import React from 'react';
 import { Header } from './components/Header';
 import { AddressBar } from './components/AddressBar';
-import { ResumePageProps } from './types';
 import { EmploymentSection } from './components/EmploymentSection';
+import { AwardsSection } from './components/AwardsSection';
+import { EducationSection } from './components/EducationSection';
+import { PageProps } from '#root/renderer/types';
+import {
+  AdditionalExperience as AdditionalExperienceType,
+  Awards,
+  BasicInfo,
+  Education,
+  Work,
+} from '#root/services/ContentLoader/types';
+import { AdditionalExperience } from './components/AdditionalExperience';
 export { Page };
-export { ShowcaseLayout as Layout } from '../../layouts/ShowcaseLayout';
+export { ShowcaseLayout as Layout } from '#root/layouts/ShowcaseLayout';
 
-function Page({ basicInfo, workInfo }: ResumePageProps) {
+export type ResumePageProps = PageProps & {
+  basicInfo: BasicInfo;
+  work: Work[];
+  awards: Awards;
+  education: Education[];
+  additionalExperience: AdditionalExperienceType;
+};
+
+function Page({
+  basicInfo,
+  work,
+  awards,
+  education,
+  additionalExperience,
+}: ResumePageProps) {
   return (
     <>
       <Header
@@ -17,7 +41,10 @@ function Page({ basicInfo, workInfo }: ResumePageProps) {
         url={basicInfo.url}
       />
       <AddressBar links={basicInfo.profiles} />
-      <EmploymentSection workInfo={workInfo} />
+      <EmploymentSection work={work} />
+      <EducationSection education={education} />
+      <AdditionalExperience additionalExperience={additionalExperience} />
+      <AwardsSection awards={awards} />
     </>
   );
 }
