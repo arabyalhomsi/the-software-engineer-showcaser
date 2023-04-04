@@ -7,15 +7,18 @@ type HeaderProps = {
   address: string;
   title: string;
   image: string;
+  url: string;
 };
-function Header({ phone, address, title, image }: HeaderProps) {
+function Header({ phone, address, title, image, url }: HeaderProps) {
   return (
     <>
       <header className="flex flex-row items-center justify-between">
         <Address>
           {phone} <br /> {address}
         </Address>
-        <h1 className="text-6xl tracking-tighter">{title}</h1>
+        <a href={url}>
+          <h1 className="text-6xl tracking-tighter">{title}</h1>
+        </a>
         <ProfilePicture image={image} />
       </header>
     </>

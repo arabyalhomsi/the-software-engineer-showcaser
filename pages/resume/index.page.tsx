@@ -14,8 +14,9 @@ function Page({ basicInfo }: ResumePageProps) {
         address={basicInfo.address}
         title={basicInfo.name}
         image={basicInfo.image}
+        url={basicInfo.url}
       />
-      <AddressBar />
+      <AddressBar links={basicInfo.profiles} />
       {/* SectionContainer */}
       {/* SectionWithDate */}
       {/* BulletPoint */}

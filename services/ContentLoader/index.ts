@@ -23,13 +23,5 @@ export const getBasicInfo = async (
     return null;
   }
 
-  const basicInfo = resumeData.basics as BasicInfo;
-
-  // The image path has to be relative for dynamic imports
-  const loadedImage = await import(
-    /* @vite-ignore */
-    '../../assets/images/' + basicInfo.image
-  );
-
-  return { ...basicInfo, image: loadedImage.default };
+  return resumeData.basics as BasicInfo;
 };

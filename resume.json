@@ -1,29 +1,29 @@
 {
     "basics": {
       "name": "Arabi Alhumsi",
-      "image": "profile-photo.jpeg",
+      "image": "/assets/images/profile-photo.jpeg",
       "email": "arabi.alhumsi@gmail.com",
       "phone": "+31 213 460 437",
       "url": "arabi.alhumsi.me",
       "address": "Utrecht, Netherlands",
       "profiles": [
         {
-          "icon": "email.svg",
+          "icon": "/assets/images/email.svg",
           "username": "arabi.alhumsi@gmail.com",
           "url": "mailto:arabi.alhumsi@gmail.com"
         },
         {
-          "icon": "linkedin.svg",
+          "icon": "/assets/images/linkedin.svg",
           "username": "arabyalhomsi",
           "url": "https://www.linkedin.com/in/arabyalhomsi/"
         },
         {
-          "icon": "globe.svg",
+          "icon": "/assets/images/globe.svg",
           "username": "arabi.alhumsi.me",
           "url": "https://arabi.alhumsi.me"
         },
         {
-          "icon": "github.svg",
+          "icon": "/assets/images/github.svg",
           "username": "arabyalhomsi",
           "url": "https://arabi.alhumsi.me"
         }]
