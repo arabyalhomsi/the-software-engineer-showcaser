@@ -1,11 +1,25 @@
 import React from 'react';
+import { Header } from './components/Header';
+import { AddressBar } from './components/AddressBar';
+import { ResumePageProps } from './types';
 
 export { Page };
+export { ShowcaseLayout as Layout } from '../../layouts/ShowcaseLayout';
 
-function Page() {
+function Page({ basicInfo }: ResumePageProps) {
   return (
     <>
-      <div>hello</div>
+      <Header
+        phone={basicInfo.phone}
+        address={basicInfo.address}
+        title={basicInfo.name}
+        image={basicInfo.image}
+      />
+      <AddressBar />
+      {/* SectionContainer */}
+      {/* SectionWithDate */}
+      {/* BulletPoint */}
+      {/* SkillTags */}
     </>
   );
 }

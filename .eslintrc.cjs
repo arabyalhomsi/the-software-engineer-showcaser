@@ -1,13 +1,18 @@
 module.exports = {
-  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
+  ],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'import', 'prettier'],
   root: true,
   ignorePatterns: ['*.cjs', 'dist', 'node_modules'],
   parserOptions: {
-    sourceType: 'module'
+    sourceType: 'module',
   },
   rules: {
-    'eqeqeq': 'error'
-  }
+    eqeqeq: 'error',
+    curly: ["error", "all"]
+  },
 };

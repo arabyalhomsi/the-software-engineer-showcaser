@@ -26,6 +26,7 @@ export type PageContextCustom = {
       title?: string;
       description?: string;
     };
+    Layout?: ({ children }: { children: React.ReactNode }) => JSX.Element;
   };
 };
 

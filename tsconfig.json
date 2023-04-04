@@ -8,14 +8,18 @@
     "types": ["vite/client"],
     "jsx": "react",
     "skipLibCheck": true,
+    "resolveJsonModule": true,
     "esModuleInterop": true,
-    "noEmitOnError": true
+    // "noEmitOnError": true,
+    "paths": {
+      "#root/*": ["./*"]
+    }
   },
   "ts-node": {
     "transpileOnly": true,
     "esm": true,
     "compilerOptions": {
-      "moduleResolution": "Node16"
+      "moduleResolution": "Node16",
     }
   }
 }
