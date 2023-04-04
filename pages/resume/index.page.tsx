@@ -2,11 +2,11 @@ import React from 'react';
 import { Header } from './components/Header';
 import { AddressBar } from './components/AddressBar';
 import { ResumePageProps } from './types';
-
+import { EmploymentSection } from './components/EmploymentSection';
 export { Page };
 export { ShowcaseLayout as Layout } from '../../layouts/ShowcaseLayout';
 
-function Page({ basicInfo }: ResumePageProps) {
+function Page({ basicInfo, workInfo }: ResumePageProps) {
   return (
     <>
       <Header
@@ -17,10 +17,7 @@ function Page({ basicInfo }: ResumePageProps) {
         url={basicInfo.url}
       />
       <AddressBar links={basicInfo.profiles} />
-      {/* SectionContainer */}
-      {/* SectionWithDate */}
-      {/* BulletPoint */}
-      {/* SkillTags */}
+      <EmploymentSection workInfo={workInfo} />
     </>
   );
 }

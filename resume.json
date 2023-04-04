@@ -4,7 +4,7 @@
       "image": "/assets/images/profile-photo.jpeg",
       "email": "arabi.alhumsi@gmail.com",
       "phone": "+31 213 460 437",
-      "url": "arabi.alhumsi.me",
+      "url": "https://arabi.alhumsi.me",
       "address": "Utrecht, Netherlands",
       "profiles": [
         {
@@ -29,16 +29,46 @@
         }]
     },
     "work": [{
-      "name": "Company",
-      "position": "President",
+      "name": "Apple Computer",
+      "position": "Software Engineer, Intern",
       "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "startDate": "May 2016",
+      "endDate": "April 2018",
+      "summary": "I built features that help people release software more quickly, easily, and effectively.",
       "highlights": [
-        "Started the company"
+        "Implemented high-profile features such as Let's Encrypt integration, merge trains, deploy freezes, DORA 4 metrics, and markdown editor keyboard shortcuts",
+        "Pushed Release vision forward through in-depth technical and business analysis",
+        "Reviewed and guided community contributions",
+        "Reviewed and guided community contributions"
       ],
-      "keywords": ["html", "css"]
+      "keywords": [{
+        "name": "html",
+        "link": "https://github.com/"
+      }, {
+        "name": "html",
+        "link": "https://github.com/"
+      }]
+    },
+    {
+      "name": "Apple Computer",
+      "position": "Software Engineer, Intern",
+      "url": "https://company.com",
+      "startDate": "May 2016",
+      "endDate": "April 2018",
+      "summary": "I built features that help people release software more quickly, easily, and effectively.",
+      "highlights": [
+        "Implemented high-profile features such as Let's Encrypt integration, merge trains, deploy freezes, DORA 4 metrics, and markdown editor keyboard shortcuts",
+        "Pushed Release vision forward through in-depth technical and business analysis",
+        "Reviewed and guided community contributions",
+        "Reviewed and guided community contributions"
+      ],
+      "keywords": [{
+        "name": "html",
+        "link": "https://github.com/"
+      }, {
+        "name": "html",
+        "link": "https://github.com/"
+      }]
     }],
     "volunteer": [{
       "organization": "Organization",

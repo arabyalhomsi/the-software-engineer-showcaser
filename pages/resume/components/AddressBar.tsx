@@ -22,7 +22,7 @@ function AddressBar({ links }: AddressBarProps) {
   });
 
   return (
-    <address className="mt-7 flex w-full flex-row justify-between gap-4 text-sm not-italic">
+    <address className="my-7 flex w-full flex-row justify-between gap-4 text-sm not-italic">
       {NavLinks}
     </address>
   );

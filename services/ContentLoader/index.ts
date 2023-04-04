@@ -1,26 +1,30 @@
 import { BasicInfo, WorkInfo } from './types';
 
-export function getWorkInfo(resumeData: unknown): WorkInfo[] | null {
-  if (
-    resumeData !== null &&
-    typeof resumeData === 'object' &&
-    'work' in resumeData
-  ) {
-    return resumeData.work as WorkInfo[];
-  }
+const makeMissingFieldErrorMessage = (field: string) =>
+  `resume.json is missing the ${field}`;
 
-  return null;
-}
+export function getWorkInfo(resumeData: unknown): WorkInfo[] {
+  const field = 'work';
 
-export const getBasicInfo = async (
-  resumeData: unknown,
-): Promise<BasicInfo | null> => {
   if (
     resumeData === null ||
     typeof resumeData !== 'object' ||
-    !('basics' in resumeData)
+    !(field in resumeData)
   ) {
-    return null;
+    throw new Error(makeMissingFieldErrorMessage(field));
+  }
+
+  return resumeData.work as WorkInfo[];
+}
+
+export const getBasicInfo = (resumeData: unknown): BasicInfo => {
+  const field = 'basics';
+  if (
+    resumeData === null ||
+    typeof resumeData !== 'object' ||
+    !(field in resumeData)
+  ) {
+    throw new Error(makeMissingFieldErrorMessage(field));
   }
 
   return resumeData.basics as BasicInfo;

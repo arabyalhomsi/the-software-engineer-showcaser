@@ -7,6 +7,7 @@ export default {
     './renderer/**/*.{ts,tsx}',
     './layouts/**/*.{ts,tsx}',
     './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
   ],
   theme: {
     screens: {

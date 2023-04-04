@@ -1,11 +1,14 @@
 import resumeJson from '#root/resume.json';
-import { getBasicInfo } from '#root/services/ContentLoader';
+import { getBasicInfo, getWorkInfo } from '#root/services/ContentLoader';
+import { ResumePageProps } from './types';
 
-export async function onBeforeRender() {
-  const basicInfo = await getBasicInfo(resumeJson);
+export function onBeforeRender() {
+  const basicInfo = getBasicInfo(resumeJson);
+  const workInfo = getWorkInfo(resumeJson);
 
-  const pageProps = {
+  const pageProps: ResumePageProps = {
     basicInfo,
+    workInfo,
   };
 
   return {

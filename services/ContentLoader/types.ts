@@ -6,7 +6,7 @@ export interface WorkInfo {
   endDate: string;
   summary: string;
   highlights: string[];
-  keywords: string[];
+  keywords: { name: string; link: string }[];
 }
 
 export interface Profile {
