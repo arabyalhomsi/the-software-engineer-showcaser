@@ -9,6 +9,13 @@ interface Keyword {
   link: string;
 }
 
+export type KernedLetter =
+  | string
+  | {
+      character: string;
+      letterSpacing: string;
+    };
+
 export interface Work {
   name: string;
   position: string;
@@ -22,6 +29,7 @@ export interface Work {
 
 export interface BasicInfo {
   name: string;
+  nameKerned: KernedLetter[];
   image: string;
   email: string;
   phone: string;

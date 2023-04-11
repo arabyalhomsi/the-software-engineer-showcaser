@@ -1,7 +1,11 @@
 html,
 body {
-  @apply bg-indigo-100 antialiased;
+  @apply bg-indigo-50 antialiased;
 
   /* The standard font-size of a CV */
-  font-size: 12px;
+  font-size: 10px;
+}
+
+a {
+  color: rgba(49, 130, 206, 1);
 }

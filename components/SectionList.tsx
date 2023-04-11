@@ -17,11 +17,8 @@ function SectionList({ type, points }: SectionListProps) {
 
   const ListMembers = points.map((content, index) => {
     return (
-      <li
-        className="mb-1 flex flex-row items-start gap-2 leading-6"
-        key={index}
-      >
-        <img src={`/assets/images/${icon}`} />
+      <li className="flex flex-row items-start gap-2" key={index}>
+        <img src={`/assets/images/${icon}`} className="mt-0.5 w-4.5" />
         <ReactMarkdown children={content} />
       </li>
     );

@@ -17,7 +17,7 @@ function EducationSection({ education }: EducationSectionProps) {
           right={`${level.startDate} - ${level.endDate}`}
         />
 
-        <SectionList type={ListType.CHECKMARK} points={level.highlights} />
+        <SectionList type={ListType.BULLET} points={level.highlights} />
       </div>
     );
   });

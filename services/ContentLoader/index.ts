@@ -69,6 +69,7 @@ export function getWork(resumeData: unknown): Work[] {
 
 export const getBasicInfo = (resumeData: unknown): BasicInfo => {
   const field = 'basics';
+
   if (
     resumeData === null ||
     typeof resumeData !== 'object' ||

@@ -9,7 +9,8 @@ function SectionTags({ tags }: SectionTagsProps) {
       <a
         href={tag.link}
         key={index}
-        className="mb-1 mr-1 bg-gray-300 px-2 py-1 text-sm text-gray-700
+        target="_blank"
+        className="mb-1 mr-1 bg-gray-300 px-2 py-1 text-xs text-gray-700
       hover:bg-gray-400 hover:text-gray-800 active:bg-gray-500 active:text-gray-900"
       >
         {tag.name}

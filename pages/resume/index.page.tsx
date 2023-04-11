@@ -31,20 +31,16 @@ function Page({
   education,
   additionalExperience,
 }: ResumePageProps) {
+  const { profiles, ...basicInfoNoProfiles } = basicInfo;
+
   return (
     <>
-      <Header
-        phone={basicInfo.phone}
-        address={basicInfo.address}
-        title={basicInfo.name}
-        image={basicInfo.image}
-        url={basicInfo.url}
-      />
-      <AddressBar links={basicInfo.profiles} />
+      <Header basicInfo={basicInfoNoProfiles} />
+      <AddressBar links={profiles} />
       <EmploymentSection work={work} />
       <EducationSection education={education} />
-      <AdditionalExperience additionalExperience={additionalExperience} />
       <AwardsSection awards={awards} />
+      <AdditionalExperience additionalExperience={additionalExperience} />
     </>
   );
 }

@@ -16,6 +16,7 @@ function EmploymentSection({ work }: EmploymentSectionProps) {
         <SectionTitle
           left={job.position}
           middle={job.name}
+          middleUrl={job.url}
           right={`${job.startDate} - ${job.endDate}`}
         />
 
