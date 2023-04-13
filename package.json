@@ -5,8 +5,7 @@
     "build": "tsc --noEmit && vite build",
     "server": "ts-node ./server/index.ts",
     "server:prod": "cross-env NODE_ENV=production ts-node ./server/index.ts",
-    "lint:fix": "eslint . --ext .ts,.js,.tsx --fix",
-    "resume:validate": "resumed validate"
+    "lint:fix": "eslint . --ext .ts,.js,.tsx --fix"
   },
   "imports": {
     "#root/*": "./*.ts"
@@ -26,7 +25,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-markdown": "^8.0.6",
-    "resumed": "^3.0.1",
     "sirv": "^2.0.2",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4",
