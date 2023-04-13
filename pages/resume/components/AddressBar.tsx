@@ -1,5 +1,5 @@
+import { Icon } from '#root/components/Icon';
 import React from 'react';
-import iconsPath from 'bootstrap-icons/bootstrap-icons.svg';
 
 export { AddressBar };
 
@@ -18,13 +18,15 @@ function AddressBar({ links }: AddressBarProps) {
         <NavLink href={link.url} icon={link.icon} key={index}>
           {link.username}
         </NavLink>
-        {links.length - 1 !== index && <span>|</span>}
+        {links.length - 1 !== index && (
+          <span className="invisible sm:visible print:visible">|</span>
+        )}
       </React.Fragment>
     );
   });
 
   return (
-    <address className="mb-2 mt-4 flex w-full flex-wrap justify-between text-base not-italic">
+    <address className="mb-4 mt-10 flex w-full flex-col flex-wrap items-center justify-between text-base not-italic sm:flex-row print:flex-row">
       {NavLinks}
     </address>
   );
@@ -33,22 +35,9 @@ function AddressBar({ links }: AddressBarProps) {
 type NavLinkProps = { href: string; icon: string; children: React.ReactNode };
 function NavLink({ href, icon, children }: NavLinkProps) {
   return (
-    <a
-      href={href}
-      target="_blank"
-      className="flex flex-row items-center gap-2 hover:underline"
-    >
+    <a href={href} target="_blank" className="flex flex-row items-center gap-2">
       <Icon src={icon} width={12} height={12} />
       {children}
     </a>
-  );
-}
-
-type IconProps = { src: string; width: number; height: number };
-function Icon({ src, width, height }: IconProps) {
-  return (
-    <svg className="bi" width={width} height={height} fill="currentColor">
-      <use xlinkHref={`${iconsPath}#${src}`} />
-    </svg>
   );
 }

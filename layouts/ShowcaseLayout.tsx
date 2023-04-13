@@ -4,8 +4,8 @@ export { ShowcaseLayout };
 
 function ShowcaseLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="paper:w-paper mx-auto origin-top scale-150 font-serif paper:py-20">
-      <div className="paper:h-paper bg-white p-16 pt-10 shadow-none paper:shadow-2xl print:shadow-none">
+    <div className="print:w-print paper:w-paper mx-auto w-full origin-top font-serif lg:scale-125 xl:scale-150 paper:py-20 print:scale-100">
+      <div className="paper:h-paper bg-white p-8 pt-10 shadow-none md:p-16 paper:shadow-2xl print:bg-white print:p-16 print:pt-20 print:shadow-none">
         {children}
       </div>
     </div>

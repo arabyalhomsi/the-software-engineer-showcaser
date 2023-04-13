@@ -9,10 +9,12 @@ import { escapeInject, dangerouslySkipEscape } from 'vite-plugin-ssr/server';
 import logoUrl from './logo.svg';
 import type { PageContextServer } from './types';
 import { DefaultLayout } from '#root/layouts/DefaultLayout';
+import { EmptyLayout } from '#root/layouts/EmptyLayout';
 
 async function render(pageContext: PageContextServer) {
   const { Page, pageProps } = pageContext;
   const Layout = pageContext.exports.Layout || DefaultLayout;
+  const OutOfLayout = pageContext.exports.OutOfLayout || EmptyLayout;
 
   if (!Page) {
     throw new Error('My render() hook expects pageContext.Page to be defined');
@@ -20,6 +22,7 @@ async function render(pageContext: PageContextServer) {
 
   const pageHtml = ReactDOMServer.renderToString(
     <PageShell pageContext={pageContext}>
+      <OutOfLayout />
       <Layout>
         <Page {...pageProps} />
       </Layout>

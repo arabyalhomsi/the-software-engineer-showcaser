@@ -15,6 +15,7 @@ import {
 import { AdditionalExperience } from './components/AdditionalExperience';
 export { Page };
 export { ShowcaseLayout as Layout } from '#root/layouts/ShowcaseLayout';
+export { SideTags as OutOfLayout } from './components/SideTags';
 
 export type ResumePageProps = PageProps & {
   basicInfo: BasicInfo;
@@ -35,6 +36,7 @@ function Page({
 
   return (
     <>
+      <base target="_blank"></base>
       <Header basicInfo={basicInfoNoProfiles} />
       <AddressBar links={profiles} />
       <EmploymentSection work={work} />

@@ -10,14 +10,13 @@ export default {
     './components/**/*.{ts,tsx}',
   ],
   theme: {
-    screens: {
-      '3xl': '2160px',
-      paper: '8.5in',
-      print: {
-        raw: 'print',
-      },
-    },
     extend: {
+      screens: {
+        paper: '8.5in',
+        print: {
+          raw: 'print',
+        },
+      },
       spacing: {
         4.5: '1.125rem',
       },

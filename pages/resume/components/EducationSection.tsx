@@ -14,6 +14,7 @@ function EducationSection({ education }: EducationSectionProps) {
         <SectionTitle
           left={level.area}
           middle={level.institution}
+          middleUrl={level.url}
           right={`${level.startDate} - ${level.endDate}`}
         />
 

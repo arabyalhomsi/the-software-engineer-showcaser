@@ -1,15 +1,15 @@
 {
   "awards": [
-    "**Selected to attend a United World College (UWCM)**: Out of 428 applicants from Syria, 14 were chosen in 2016.",
-    "**Horizon Foundation Scholar**: Full scholarship (+70K €) to pay for UWCM and 10 year support after graduation",
+    "**Selected to attend a United World College (UWCM)**: Out of 428 applicants from Syria, [13 were chosen](https://www.sy.uwc.org/uwc-experience/meet-our-scholars) in 2016.",
+    "**[Horizon Foundation](https://horizonfoundation.info/) Scholar**: Full scholarship (+70K €) to pay for UWCM and 10 year support after graduation",
     "**Maastricht University Scholar**: Full scholarship (+80K €) which is given to only 5 people each year.",
-    "**Started writing code at 14 years old**: The first programming language I learned was `Pascal`",
+    "**Started writing code at 14 years old**: The first programming language I learned was Pascal",
     "**Until I was 17, I did  many manual labor jobs to support my family**: bakery, print shop, car wash, handyman, and more."
   ],
   "additionalExperience": [
-    "**[LaraJS Validator](https://www.npmjs.com/package/larajs-validator)**: Created a `JavaScript` validation library with the style of `Laravel`, at 17 years old. [+4K downloads](https://npm-stat.com/charts.html?package=larajs-validator&from=2014-01-06&to=2023-04-06).",
+    "**[LaraJS Validator](https://www.npmjs.com/package/larajs-validator)**: Created a JavaScript validation library with the style of Laravel, at 17 years old. [+4K downloads](https://npm-stat.com/charts.html?package=larajs-validator&from=2014-01-06&to=2023-04-06).",
     "**[The Software Engineer Showcaser](#)**: Created an open source website and resume. This resume is made with it.",
-    "**[Hacktoberrank](https://github.com/paulodiovani/hacktoberrank)**: Programmed the entire `NodeJS` backend that ranked all participants in [Hacktoberfest](https://hacktoberfest.com/) 2019.",
+    "**[Hacktoberrank](https://github.com/paulodiovani/hacktoberrank)**: Programmed the entire NodeJS backend that ranked all participants in [Hacktoberfest](https://hacktoberfest.com/) 2019.",
     "**[Care4Calais](https://care4calais.org/)**: Volunteered in one of the most dangeroues refugee camps in Europe."
   ],
   "basics": {
@@ -51,7 +51,7 @@
       },
       {
         "icon": "github",
-        "url": "https://arabi.alhumsi.me",
+        "url": "https://github.com/arabyalhomsi",
         "username": "arabyalhomsi"
       }
     ],
@@ -68,7 +68,7 @@
       ],
       "institution": "Maastricht University",
       "startDate": "September 2018",
-      "url": "https://institution.com/"
+      "url": "https://curriculum.maastrichtuniversity.nl/education/bachelor/university-college-maastricht"
     },
     {
       "area": "Bilingual International Baccalaureate",
@@ -80,7 +80,7 @@
       ],
       "institution": "United World College Maastricht",
       "startDate": "September 2016",
-      "url": "https://institution.com/"
+      "url": "https://www.uwcmaastricht.nl/secondary-school/diploma-programme/"
     }
   ],
   "work": [
@@ -136,34 +136,34 @@
       "endDate": "Feb 2022",
       "highlights": [
         "Was the main developer working on: [De Lerende Ambtenaar](https://delerendeambtenaar.nl/) that belongs to the [Dutch Certus Groep](https://www.certusgroep.nl/).",
-        "Built and refactored 50+ `React` functional components in the span of 7 months.",
+        "Built and refactored 50+ React functional components in the span of 7 months.",
         "Given two presentations to a team of 15+ developers on how to improve the frontend architecture.",
         "Enhanced the animations and transitions in the web app to run at 60fps.",
         "Improved project planning on Jira and the processs of coordinating between backend and frontend."
       ],
       "keywords": [
         {
-          "link": "https://github.com/",
+          "link": "https://www.typescriptlang.org/",
           "name": "TypeScript"
         },
         {
-          "link": "https://github.com/",
+          "link": "https://react.dev/",
           "name": "React"
         },
         {
-          "link": "https://github.com/",
+          "link": "https://react.dev/reference/react",
           "name": "React hooks"
         },
         {
-          "link": "https://github.com/",
+          "link": "https://styled-components.com/",
           "name": "Styled Components"
         },
         {
-          "link": "https://github.com/",
+          "link": "https://nextjs.org/",
           "name": "Next.js"
         },
         {
-          "link": "https://github.com/",
+          "link": "https://react.i18next.com/",
           "name": "Internationalization (i18n)"
         }
       ],
@@ -173,7 +173,7 @@
       "url": "https://coffeeit.nl/"
     }, 
     {
-      "endDate": "Feb 2022",
+      "endDate": "April 2020",
       "highlights": [
         "Was part of building a platform for [CJP](https://www.cjp.nl/) to allocate [14.3 million](https://np-cjp-production.s3-eu-west-1.amazonaws.com/Jaarverslag2021.pdf) euros to 711,685 students on the national level.",
         "Advised the company on frontend architecture and technologies.",
@@ -182,87 +182,87 @@
       ],
       "keywords": [
         {
-          "link": "https://github.com/",
-          "name": "Laravel"
-        },
-        {
-          "link": "https://github.com/",
-          "name": "Django"
-        },
-        {
-          "link": "https://github.com/",
+          "link": "https://www.typescriptlang.org/",
           "name": "TypeScript"
         },
         {
-          "link": "https://github.com/",
+          "link": "https://laravel.com/",
+          "name": "Laravel"
+        },
+        {
+          "link": "https://www.djangoproject.com/",
+          "name": "Django"
+        },
+        {
+          "link": "https://react.dev/",
           "name": "React"
         },
         {
-          "link": "https://github.com/",
+          "link": "https://vuejs.org/",
           "name": "Vue"
         },
         {
-          "link": "https://github.com/",
+          "link": "https://sass-lang.com/",
           "name": "Sass"
         }
       ],
       "name": "Team4Hire",
       "url": "https://team4hire.nl/",
-      "position": "Software Engineer (part-time)",
-      "startDate": "Aug 2021"
+      "position": "Software Engineer",
+      "startDate": "April 2019"
     },
     {
-      "endDate": "Feb 2022",
+      "endDate": "April 2019",
       "highlights": [
         "Solely created and maintained a frontend for a platform that enhances citizen engagement using blockchain",
         "Optimized the frontend fully; made it progressive, fast, and responsive."
       ],
       "keywords": [
         {
-          "link": "https://github.com/",
+          "link": "https://react.dev/",
           "name": "React"
         },
         {
-          "link": "https://github.com/",
+          "link": "https://sass-lang.com/",
           "name": "Sass"
         },
         {
-          "link": "https://github.com/",
+          "link": "https://react.i18next.com/",
           "name": "Internationalization (i18n)"
         }
       ],
       "name": "CoTown",
       "url": "https://cotown.io/",
       "position": "Software Engineer (part-time)",
-      "startDate": "Aug 2021"
+      "startDate": "October 2018"
     },
     {
       "endDate": "Feb 2016",
       "highlights": [
         "Was hired only at 17 years old with a team of engineers who were all graduates in their mid 20s.",
-        "Collaborated in building a real-estate CRM in `SailsJS` and `MithrilJS` and built several websites using `Drupal` and `Wordpress`.",
+        "Collaborated in building a real-estate CRM in SailsJS and MithrilJS and built several websites using Drupal and Wordpress.",
         "Built a client-side state management library (like Redux/Vuex).",
         "Gave a workshop on JavaScript’s prototypal inheritance and how it differs from class inheritance."
       ],
       "keywords": [
         {
-          "link": "https://github.com/",
+          "link": "https://262.ecma-international.org/5.1/",
           "name": "ECMAScript 5"
         },
         {
-          "link": "https://github.com/",
+          "link": "https://sailsjs.com/",
           "name": "SailsJS"
         },
         {
-          "link": "https://github.com/",
+          "link": "https://mithril.js.org/",
           "name": "MithrilJS"
         },
         {
-          "link": "https://github.com/",
+          "link": "https://wordpress.org/",
           "name": "Wordpress"
         },
         {
-          "link": "https://github.com/",
+          "link": "https://www.drupal.org/",
           "name": "Drupal"
         }
       ],

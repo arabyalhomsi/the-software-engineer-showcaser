@@ -1,11 +1,29 @@
 html,
 body {
   @apply bg-indigo-50 antialiased;
+  @apply print:bg-white;
 
-  /* The standard font-size of a CV */
-  font-size: 10px;
+  font-size: 12px;
 }
 
-a {
-  color: rgba(49, 130, 206, 1);
+a,
+.title {
+  color: rgba(71, 116, 213, 1);
+}
+
+a:not(.tag):hover {
+  text-decoration: underline;
+}
+
+@screen md {
+  html,
+  body {
+    font-size: 10px;
+  }
+}
+@screen print {
+  html,
+  body {
+    font-size: 10px;
+  }
 }

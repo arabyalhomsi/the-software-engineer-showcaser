@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import { Icon } from './Icon';
 
 export { SectionList };
 
@@ -13,12 +14,23 @@ type SectionListProps = {
   points: string[];
 };
 function SectionList({ type, points }: SectionListProps) {
-  const icon = type === ListType.BULLET ? 'dot.svg' : 'check.svg';
+  const icon = type === ListType.BULLET ? 'dot' : 'check-circle-fill';
 
   const ListMembers = points.map((content, index) => {
     return (
-      <li className="flex flex-row items-start gap-2" key={index}>
-        <img src={`/assets/images/${icon}`} className="mt-0.5 w-4.5" />
+      <li
+        className="flex flex-row items-start gap-2 leading-[1.52rem]"
+        key={index}
+      >
+        <Icon
+          className={`mt-0.5 ${
+            ListType.BULLET === type ? 'scale-150' : 'text-gray-500'
+          }`}
+          src={icon}
+          width={12}
+          height={12}
+        />
+
         <ReactMarkdown children={content} />
       </li>
     );
