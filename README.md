@@ -19,7 +19,7 @@ To Add: links to my website
 ## Credits
 
 - Heavily inspired by <a href="https://gitlab.com/nfriend/nuxt-resume">Nathan Friend's Nuxt Resume</a>
-- CV template by <a href="https://github.com/dnl-blkv/mcdowell-cv">McDowell CV</a>
+- CV template inspired by <a href="https://github.com/dnl-blkv/mcdowell-cv">McDowell CV</a>
 - Bootstrap icons
 
 ## License
