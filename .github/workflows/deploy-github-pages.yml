@@ -23,9 +23,6 @@ jobs:
       - name: Build vite-plugin-ssr
         run: pnpm run build
 
-      - name: Build docs
-        run: pnpm run docs:build
-
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
