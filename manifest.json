@@ -28,7 +28,7 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entry-server-routing.72a51120.js",
+    "file": "assets/entry-server-routing.8b83891f.js",
     "imports": [
       "_69a771ff.js"
     ],
@@ -42,7 +42,7 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entry-client-routing.73582428.js",
+    "file": "assets/entry-client-routing.cce48e97.js",
     "imports": [
       "_69a771ff.js"
     ],
@@ -50,7 +50,7 @@
     "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.113_vite@4.2.1/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
   },
   "pages/index/index.page.tsx": {
-    "file": "assets/pages/index/index.page.90a5242f.js",
+    "file": "assets/pages/index/index.page.9be3ef9b.js",
     "imports": [
       "_1979356d.js"
     ],
