@@ -8,19 +8,32 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
 
-      - name: Build the app
-        run: npm run build
+      - name: Install
+        run: pnpm install
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4.4.1
+      - name: Build vite-plugin-ssr
+        run: pnpm run build
+
+      - name: Build docs
+        run: pnpm run docs:build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages
-          folder: dist
+          folder: docs/dist/client
+          # Remove previous build files
+          clean: true
+          # Do not remove the `.nojekyll` file: we have manually added an empty `.nojekyll` file at the root of the `gh-pages` branch and we don't want having to re-create it after each build.
+          clean-exclude: |
+            .nojekyll
