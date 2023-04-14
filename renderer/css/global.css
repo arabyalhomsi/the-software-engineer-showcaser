@@ -27,3 +27,8 @@ a:not(.tag):hover {
     font-size: 10px;
   }
 }
+
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
