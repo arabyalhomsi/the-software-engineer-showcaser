@@ -17,15 +17,17 @@ import type {
 type Page = (pageProps: PageProps) => React.ReactElement;
 type PageProps = object;
 
+export type DocumentProps = {
+  title?: string;
+  description?: string;
+};
+
 export type PageContextCustom = {
   Page: Page;
   pageProps?: PageProps;
   urlPathname: string;
   exports: {
-    documentProps?: {
-      title?: string;
-      description?: string;
-    };
+    documentProps?: DocumentProps;
     Layout?: ({ children }: { children: React.ReactNode }) => JSX.Element;
     OutOfLayout?: () => JSX.Element;
   };

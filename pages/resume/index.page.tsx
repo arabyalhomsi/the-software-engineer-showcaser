@@ -4,7 +4,7 @@ import { AddressBar } from './components/AddressBar';
 import { EmploymentSection } from './components/EmploymentSection';
 import { AwardsSection } from './components/AwardsSection';
 import { EducationSection } from './components/EducationSection';
-import { PageProps } from '#root/renderer/types';
+import { DocumentProps, PageProps } from '#root/renderer/types';
 import {
   AdditionalExperience as AdditionalExperienceType,
   Awards,
@@ -16,6 +16,12 @@ import { AdditionalExperience } from './components/AdditionalExperience';
 export { Page };
 export { ShowcaseLayout as Layout } from '#root/layouts/ShowcaseLayout';
 export { SideTags as OutOfLayout } from './components/SideTags';
+
+export const documentProps: DocumentProps = {
+  title: 'Arabi Alhumsi - Résumé',
+  description:
+    'The résumé of Arabi Alhumsi - Built using vite-plugin-ssr and react.',
+};
 
 export type ResumePageProps = PageProps & {
   basicInfo: BasicInfo;
