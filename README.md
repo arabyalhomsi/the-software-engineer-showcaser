@@ -7,6 +7,7 @@ The Software Engineer Showcaser
 <div align="center">
 
 ![Build and Deploy to Github Pages](https://github.com/arabyalhomsi/the-software-engineer-showcaser/actions/workflows/deploy-github-pages.yml/badge.svg)
+![ts](https://badgen.net/badge/Built%20With/TypeScript/blue)
 
 </div>
 <p align="center">
