@@ -14,6 +14,13 @@ function SideTags() {
         <Icon src="printer" width={12} height={12} className="inline" />
         <h5 className="hidden lg:inline">Print This</h5>
       </SideTag>
+
+      <a className="tag" href="/">
+        <SideTag>
+          <Icon src="people" width={12} height={12} className="inline" />
+          <h5 className="hidden lg:inline">Check HoA</h5>
+        </SideTag>
+      </a>
     </div>
   );
 }
