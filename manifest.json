@@ -2,9 +2,6 @@
   "_1979356d.js": {
     "file": "assets/chunks/1979356d.js"
   },
-  "_4d501b15.js": {
-    "file": "assets/chunks/4d501b15.js"
-  },
   "_69a771ff.js": {
     "file": "assets/chunks/69a771ff.js"
   },
@@ -31,7 +28,7 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entry-server-routing.3a7df100.js",
+    "file": "assets/entry-server-routing.3f0d82bb.js",
     "imports": [
       "_69a771ff.js"
     ],
@@ -45,7 +42,7 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entry-client-routing.eade9e37.js",
+    "file": "assets/entry-client-routing.22bbbeb6.js",
     "imports": [
       "_69a771ff.js"
     ],
@@ -65,10 +62,9 @@
     "assets": [
       "assets/static/bootstrap-icons.5cd238ca.svg"
     ],
-    "file": "assets/pages/resume/index.page.3e64ee6c.js",
+    "file": "assets/pages/resume/index.page.79ed27f7.js",
     "imports": [
-      "_1979356d.js",
-      "_4d501b15.js"
+      "_1979356d.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
@@ -87,10 +83,9 @@
     "css": [
       "assets/static/default.page.client.cf5f473d.css"
     ],
-    "file": "assets/renderer/default.page.client.bf93b5d9.js",
+    "file": "assets/renderer/default.page.client.13720958.js",
     "imports": [
-      "_1979356d.js",
-      "_4d501b15.js"
+      "_1979356d.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
