@@ -7,7 +7,7 @@ import './css/tailwind.css';
 import './css/global.css';
 
 // Fonts
-import '@fontsource/kadwa';
+import '@fontsource/kadwa/400.css';
 
 export { PageShell };
 
