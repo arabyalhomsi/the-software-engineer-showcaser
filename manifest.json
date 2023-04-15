@@ -31,7 +31,7 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entry-server-routing.3a7df100.js",
+    "file": "assets/entry-server-routing.30cd5e01.js",
     "imports": [
       "_69a771ff.js"
     ],
@@ -45,7 +45,7 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entry-client-routing.eade9e37.js",
+    "file": "assets/entry-client-routing.b16af166.js",
     "imports": [
       "_69a771ff.js"
     ],
@@ -87,7 +87,7 @@
     "css": [
       "assets/static/default.page.client.cf5f473d.css"
     ],
-    "file": "assets/renderer/default.page.client.bf93b5d9.js",
+    "file": "assets/renderer/default.page.client.640769d8.js",
     "imports": [
       "_1979356d.js",
       "_4d501b15.js"
