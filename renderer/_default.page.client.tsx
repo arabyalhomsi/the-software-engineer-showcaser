@@ -26,7 +26,7 @@ async function render(pageContext: PageContextClient) {
     );
   }
 
-  // initalize google analytics in production
+  // Initalize google analytics in production
   if (import.meta.env.PROD) {
     ReactGA.initialize('G-R3NKXM1S6M');
   }
