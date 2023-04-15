@@ -12,8 +12,8 @@ The Software Engineer Showcaser
 </div>
 <p align="center">
   <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">Quick Guide</a> •
-  <a href="#how-to-use">Folder Structure</a> •
+  <a href="#quick-guide">Quick Guide</a> •
+  <a href="#folder-structure">Folder Structure</a> •
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>
