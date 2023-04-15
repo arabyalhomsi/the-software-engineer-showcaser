@@ -2,7 +2,7 @@
 The Software Engineer Showcaser
 </h1>
 
-<h4 align="center">My humble attempt at creating a modern but simple app that enables software engineers to showcase their skills and experience.</h4>
+<h4 align="center">My humble attempt at creating a modern but simple app that enables software engineers to showcase their skills and experience. Uses <code>vite-plugin-ssr</code></h4> 
 <br>
 <div align="center">
 
@@ -19,14 +19,21 @@ The Software Engineer Showcaser
 
 ![screenshot](https://raw.githubusercontent.com/arabyalhomsi/the-software-engineer-showcaser/main/public/assets/images/screenshot.png)
 
+## Key features
+
+- Prints to a normal pdf CV using any browser and platform (ctrl+p, cmd+p, Android, iPhone).
+- Easily adjustable through the resume.json file.
+- Modular structure so you can add new section or modify existing section with basic knowledge of React.
+- Completely prerendered: You can host it on Github Pages for free.
+- Loads in 0.2s on PC and 0.9s on mobile.
+- Responsive on all devices.
+
 ## Credits
 
 - Heavily inspired by <a href="https://gitlab.com/nfriend/nuxt-resume">Nathan Friend's Nuxt Resume</a>
 - CV template inspired by <a href="https://github.com/dnl-blkv/mcdowell-cv">McDowell CV</a>
-- Bootstrap icons
+- Icons by [Bootstrap Icons](https://icons.getbootstrap.com/)
 
 ## License
 
-MIT
-
----
+All info in resume.json belongs to Arabi Alhumsi and may not used in anyway without my permission. All the other files follow the [MIT license](https://github.com/arabyalhomsi/the-software-engineer-showcaser/blob/main/license)
