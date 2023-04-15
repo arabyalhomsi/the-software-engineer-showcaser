@@ -16,6 +16,7 @@ import { AdditionalExperience } from './components/AdditionalExperience';
 export { Page };
 export { ShowcaseLayout as Layout } from '#root/layouts/ShowcaseLayout';
 export { SideTags as OutOfLayout } from './components/SideTags';
+export { DeploymentInfo as Footer } from './components/DeploymentInfo';
 
 export const documentProps: DocumentProps = {
   title: 'Arabi Alhumsi - Résumé',

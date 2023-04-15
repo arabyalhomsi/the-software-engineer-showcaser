@@ -1,5 +1,4 @@
 export { render };
-// See https://vite-plugin-ssr.com/data-fetching
 export const passToClient = ['pageProps', 'urlPathname'];
 
 import ReactDOMServer from 'react-dom/server';
@@ -17,6 +16,7 @@ async function render(pageContext: PageContextServer) {
   const { Page, pageProps } = pageContext;
   const Layout = pageContext.exports.Layout || DefaultLayout;
   const OutOfLayout = pageContext.exports.OutOfLayout || EmptyLayout;
+  const Footer = pageContext.exports.Footer || (() => <></>);
 
   if (!Page) {
     throw new Error('My render() hook expects pageContext.Page to be defined');
@@ -25,7 +25,7 @@ async function render(pageContext: PageContextServer) {
   const pageHtml = ReactDOMServer.renderToString(
     <PageShell pageContext={pageContext}>
       <OutOfLayout />
-      <Layout>
+      <Layout footer={<Footer />}>
         <Page {...pageProps} />
       </Layout>
     </PageShell>,
