@@ -7,12 +7,13 @@ The Software Engineer Showcaser
 <div align="center">
 
 ![Build and Deploy to Github Pages](https://github.com/arabyalhomsi/the-software-engineer-showcaser/actions/workflows/deploy-github-pages.yml/badge.svg)
+![ts](https://badgen.net/badge/Built%20With/TypeScript/blue)
 
 </div>
 <p align="center">
   <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">Quick Guide</a> •
-  <a href="#how-to-use">Folder Structure</a> •
+  <a href="#quick-guide">Quick Guide</a> •
+  <a href="#folder-structure">Folder Structure</a> •
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>
@@ -37,8 +38,12 @@ This guide does not need any react experience.
 - Run `npm install` and `npm run dev`.
 - Modify the resume.json to your needs.
 - In `renderer/_default.page.server.tsx`, personalize the data and the SEO tags.
+- In `renderer/_default.page.client.tsx`, edit the google analytics ID
 - In `public/assets/images`, you can change the screenshot.png and profile-photo.jpeg.
+- Edit the `branches` to `main` or the name of the branch you want to deploy in `.github/workflows/deploy-github-pages.yml`
 - Follow the [Quick Start Github pages](https://docs.github.com/en/pages/quickstart) to get your site online.
+- Add this Github Action [Deploy To Github Pages](https://github.com/marketplace/actions/deploy-to-github-pages) to your repository.
+- You should be successful! Don't hesitate to post an issue if you struggle.
 
 ## Folder structure
 
