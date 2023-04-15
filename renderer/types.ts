@@ -28,8 +28,15 @@ export type PageContextCustom = {
   urlPathname: string;
   exports: {
     documentProps?: DocumentProps;
-    Layout?: ({ children }: { children: React.ReactNode }) => JSX.Element;
+    Layout?: ({
+      children,
+      footer,
+    }: {
+      children: React.ReactNode;
+      footer?: React.ReactNode;
+    }) => JSX.Element;
     OutOfLayout?: () => JSX.Element;
+    Footer?: () => JSX.Element;
   };
 };
 

@@ -13,6 +13,7 @@ async function render(pageContext: PageContextClient) {
   const { Page, pageProps } = pageContext;
   const Layout = pageContext.exports.Layout || DefaultLayout;
   const OutOfLayout = pageContext.exports.OutOfLayout || EmptyLayout;
+  const Footer = pageContext.exports.Footer || (() => <></>);
 
   const pageView = document.getElementById('page-view');
 
@@ -35,7 +36,7 @@ async function render(pageContext: PageContextClient) {
     pageView,
     <PageShell pageContext={pageContext}>
       <OutOfLayout />
-      <Layout>
+      <Layout footer={<Footer />}>
         <Page {...pageProps} />
       </Layout>
     </PageShell>,
