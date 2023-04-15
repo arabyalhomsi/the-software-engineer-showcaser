@@ -38,6 +38,7 @@ This guide does not need any react experience.
 - Run `npm install` and `npm run dev`.
 - Modify the resume.json to your needs.
 - In `renderer/_default.page.server.tsx`, personalize the data and the SEO tags.
+- In `renderer/_default.page.client.tsx`, edit the google analytics ID
 - In `public/assets/images`, you can change the screenshot.png and profile-photo.jpeg.
 - Edit the `branches` to `main` or the name of the branch you want to deploy in `.github/workflows/deploy-github-pages.yml`
 - Follow the [Quick Start Github pages](https://docs.github.com/en/pages/quickstart) to get your site online.
