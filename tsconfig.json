@@ -10,7 +10,7 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    // "noEmitOnError": true,
+    "noEmitOnError": true,
     "paths": {
       "#root/*": ["./*"]
     }

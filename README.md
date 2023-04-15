@@ -11,7 +11,7 @@ The Software Engineer Showcaser
 </div>
 <p align="center">
   <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
+  <a href="#how-to-use">Quick Guide</a> •
   <a href="#how-to-use">Folder Structure</a> •
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
@@ -29,9 +29,16 @@ The Software Engineer Showcaser
 - Responsive on all devices.
 - SEO ready.
 
-## How To Use
+## Quick Guide
 
--
+This guide does not need any react experience.
+
+- Clone the respository and pull it.
+- Run `npm install` and `npm run dev`.
+- Modify the resume.json to your needs.
+- In `renderer/_default.page.server.tsx`, personalize the data and the SEO tags.
+- In `public/assets/images`, you can change the screenshot.png and profile-photo.jpeg.
+- Follow the [Quick Start Github pages](https://docs.github.com/en/pages/quickstart) to get your site online.
 
 ## Folder structure
 
