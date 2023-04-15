@@ -12,7 +12,7 @@ type IconProps = {
 function Icon({ src, width, height, className }: IconProps) {
   return (
     <svg
-      className={`${className}`}
+      className={className}
       width={width}
       height={height}
       style={{ minWidth: `${width}px`, minHeight: `${height}px` }}

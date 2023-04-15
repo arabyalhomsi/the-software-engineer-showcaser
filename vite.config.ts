@@ -1,14 +1,27 @@
 import react from '@vitejs/plugin-react';
 import ssr from 'vite-plugin-ssr/plugin';
-import { UserConfig } from 'vite';
+import { VitePluginRadar } from 'vite-plugin-radar';
+import { UserConfig, defineConfig } from 'vite';
+import dotenv from 'dotenv';
 
-const config: UserConfig = {
-  plugins: [react(), ssr({ prerender: true })],
-  resolve: {
-    alias: {
-      '#root': __dirname,
+export default defineConfig(({ mode }) => {
+  dotenv.config();
+
+  const config: UserConfig = {
+    plugins: [
+      react(),
+      VitePluginRadar({
+        enableDev: mode === 'development',
+        analytics: [{ id: process.env.GOOGLE_ANALYTICS_ID ?? '' }],
+      }),
+      ssr({ prerender: true }),
+    ],
+    resolve: {
+      alias: {
+        '#root': __dirname,
+      },
     },
-  },
-};
+  };
 
-export default config;
+  return config;
+});
