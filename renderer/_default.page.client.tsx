@@ -1,6 +1,7 @@
 export { render };
 
 import React from 'react';
+import ReactGA from 'react-ga4';
 import { hydrateRoot } from 'react-dom/client';
 import { PageShell } from './PageShell';
 import type { PageContextClient } from './types';
@@ -24,6 +25,12 @@ async function render(pageContext: PageContextClient) {
       'Client-side render() hook expects pageContext.Page to be defined',
     );
   }
+
+  // initalize google analytics in production
+  if (import.meta.env.PROD) {
+    ReactGA.initialize(import.meta.env.GOOGLE_ANALYTICS_ID);
+  }
+
   hydrateRoot(
     pageView,
     <PageShell pageContext={pageContext}>
