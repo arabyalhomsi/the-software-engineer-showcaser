@@ -40,6 +40,8 @@ This guide does not need any react experience.
 - In `public/assets/images`, you can change the screenshot.png and profile-photo.jpeg.
 - Edit the `branches` to `main` or the name of the branch you want to deploy in `.github/workflows/deploy-github-pages.yml`
 - Follow the [Quick Start Github pages](https://docs.github.com/en/pages/quickstart) to get your site online.
+- Add this Github Action [Deploy To Github Pages](https://github.com/marketplace/actions/deploy-to-github-pages) to your repository.
+- You should be successful! Don't hesitate to post an issue if you struggle.
 
 ## Folder structure
 
