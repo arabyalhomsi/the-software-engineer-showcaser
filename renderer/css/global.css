@@ -1,6 +1,7 @@
 html,
 body {
-  @apply bg-indigo-50 antialiased;
+  @apply bg-white;
+  @apply antialiased md:bg-indigo-50;
   @apply print:bg-white;
 
   font-size: 12px;
