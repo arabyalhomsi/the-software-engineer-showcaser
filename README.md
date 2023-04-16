@@ -71,4 +71,4 @@ This guide does not need any react experience.
 
 ## License
 
-All info in resume.json belongs to Arabi Alhumsi and may not used in anyway without my permission. All the other files follow the [MIT license](https://github.com/arabyalhomsi/the-software-engineer-showcaser/blob/main/license)
+All info in resume.json belongs to Arabi Alhumsi and may not be used in any way without my permission. All the other files follow the [MIT license](https://github.com/arabyalhomsi/the-software-engineer-showcaser/blob/main/license)
