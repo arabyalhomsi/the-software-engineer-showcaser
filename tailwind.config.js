@@ -24,11 +24,9 @@ export default {
         serif: ['Kadwa', ...defaultTheme.fontFamily.sans],
       },
       scale: {
-        scale: {
-          120: '1.2',
-          140: '1.4',
-          160: '1.6',
-        },
+        120: '1.2',
+        140: '1.4',
+        160: '1.6',
       },
     },
   },

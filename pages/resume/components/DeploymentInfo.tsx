@@ -5,7 +5,7 @@ export { DeploymentInfo };
 
 function DeploymentInfo() {
   return (
-    <div className="mt-10 flex flex-row items-center justify-center text-gray-600">
+    <div className="mt-10 flex flex-col items-center justify-center gap-4 text-gray-600 md:flex-row md:gap-0">
       <a
         href="https://github.com/arabyalhomsi/the-software-engineer-showcaser/actions"
         target="_blank"
@@ -18,7 +18,7 @@ function DeploymentInfo() {
       </a>
       <a
         href="https://github.com/arabyalhomsi/the-software-engineer-showcaser"
-        className="flex flex-row gap-2"
+        className="flex flex-row items-center gap-2"
       >
         <span>View the source on Github</span>
         <Icon src="github" width={12} height={12} />
