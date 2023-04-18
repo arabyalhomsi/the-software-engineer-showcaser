@@ -18,7 +18,7 @@ function Header({ basicInfo }: HeaderProps) {
           </Address>
         </div>
         <div
-          className="order-2 mt-6 justify-self-center
+          className="order-2 mt-6 justify-self-center text-center
         sm:order-none sm:col-start-2 sm:col-end-6 sm:mt-auto
         print:order-none print:col-start-2 print:col-end-6 print:mt-auto"
         >
