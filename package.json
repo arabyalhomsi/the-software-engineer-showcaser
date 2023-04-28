@@ -21,6 +21,7 @@
     "bootstrap-icons": "^1.10.4",
     "compression": "^1.7.4",
     "cross-env": "^7.0.3",
+    "date-fns": "^2.29.3",
     "dotenv": "^16.0.3",
     "express": "^4.18.1",
     "react": "^18.2.0",

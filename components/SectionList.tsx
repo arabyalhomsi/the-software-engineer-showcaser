@@ -31,7 +31,7 @@ function SectionList({ type, points }: SectionListProps) {
           height={12}
         />
 
-        <ReactMarkdown children={content} />
+        <ReactMarkdown children={content} className='whitespace-pre-wrap' />
       </li>
     );
   });
