@@ -8,7 +8,7 @@ export { AwardsSection };
 type AwardsSectionProps = { awards: Awards };
 function AwardsSection({ awards }: AwardsSectionProps) {
   return (
-    <SectionContainer title="Awards and Most Proud of">
+    <SectionContainer title="Most Proud of">
       <div className="mb-2">
         <SectionList type={ListType.BULLET} points={awards} />
       </div>

@@ -1,28 +1,24 @@
 {
   "awards": [
-    "**Selected to attend a United World College (UWCM)**: Out of 428 applicants from Syria, [13 were chosen](https://www.sy.uwc.org/uwc-experience/meet-our-scholars) in 2016.",
-    "**[Horizon Foundation](https://horizonfoundation.info/) Scholar**: Full scholarship (+70K €) to pay for UWCM and 10 year support after graduation",
-    "**Maastricht University Scholar**: Full scholarship (+80K €) which is given to only 5 people each year.",
-    "**Started writing code at 14 years old**: The first programming language I learned was Pascal",
-    "**Until I was 17, I did  many manual labor jobs to support my family**: bakery, print shop, car wash, handyman, and more."
+    "**Started writing code at 13 years old**: The first programming language I learned was Ruby.",
+    "**I was able to afford and buy my first car before I hit 18**: 2009 Red Chevrolet Optra."
   ],
   "additionalExperience": [
-    "**[LaraJS Validator](https://www.npmjs.com/package/larajs-validator)**: Created a JavaScript validation library with the style of Laravel, at 17 years old. [+4K downloads](https://npm-stat.com/charts.html?package=larajs-validator&from=2014-01-06&to=2023-04-06).",
-    "**[The Software Engineer Showcaser](https://github.com/arabyalhomsi/the-software-engineer-showcaser)**: Created an open source website and resume. This resume is made with it.",
-    "**[Hacktoberrank](https://github.com/paulodiovani/hacktoberrank)**: Programmed the entire NodeJS backend that ranked all participants in [Hacktoberfest](https://hacktoberfest.com/) 2019.",
-    "**[Care4Calais](https://care4calais.org/)**: Volunteered in one of the most dangeroues refugee camps in Europe."
+    "**[Vuesax RTL Support](https://github.com/lusaxweb/vuesax/pull/659)**: Contributed to the Vuesax UI library by adding RTL support.",
+    "**[Turning E-commerce](https://www.turing.com/)**: This is a complete project built by me for turing.com, it was the first assessment of many which I succeeded.",
+    "**[Hacktoberrank](https://github.com/paulodiovani/hacktoberrank)**: Contributed to the UI that ranked all participants in [Hacktoberfest](https://hacktoberfest.com/) 2019."
   ],
   "basics": {
     "address": "Utrecht, Netherlands",
-    "email": "arabi.alhumsi@gmail.com",
-    "image": "/assets/images/profile-photo.jpeg",
-    "name": "Arabi Alhumsi",
+    "email": "kamal.alhumsi@gmail.com",
+    "image": "/assets/images/profile-photo3.jpg",
+    "name": "Kamal Eddin Alhumsi",
     "nameKerned": [
-      {"character": "A", "letterSpacing": "-0.01em"},
-      {"character": "r", "letterSpacing": "-0.05em"},
-      {"character": "a", "letterSpacing": "-0.08em"},
-      {"character": "b", "letterSpacing": "-.05em"},
-      {"character": "i", "letterSpacing": "-.06em"},
+      {"character": "K", "letterSpacing": "-0.01em"},
+      {"character": "a", "letterSpacing": "-0.05em"},
+      {"character": "m", "letterSpacing": "-0.08em"},
+      {"character": "a", "letterSpacing": "-.05em"},
+      {"character": "l", "letterSpacing": "-.06em"},
       " ",
       {"character": "A", "letterSpacing": "0.02em"},
       {"character": "l", "letterSpacing": "0.02em"},
@@ -36,110 +32,46 @@
     "profiles": [
       {
         "icon": "envelope-at",
-        "url": "mailto:arabi.alhumsi@gmail.com",
-        "username": "arabi.alhumsi@gmail.com"
+        "url": "mailto:kamal.alhumsi@gmail.com",
+        "username": "kamal.alhumsi@gmail.com"
       },
       {
         "icon": "linkedin",
-        "url": "https://www.linkedin.com/in/arabyalhomsi/",
-        "username": "arabyalhomsi"
+        "url": "https://www.linkedin.com/in/kamal-eddin-alhumsi-83a42b110/",
+        "username": "kamaleddin"
       },
       {
         "icon": "globe",
-        "url": "https://arabi.alhumsi.me",
-        "username": "arabi.alhumsi.me"
+        "url": "https://kamal.alhumsi.me",
+        "username": "kamal.alhumsi.me"
       },
       {
         "icon": "github",
-        "url": "https://github.com/arabyalhomsi",
-        "username": "arabyalhomsi"
+        "url": "https://github.com/kamaladenalhomsi",
+        "username": "kamaladenalhomsi"
       }
     ],
-    "url": "https://arabi.alhumsi.me"
+    "url": "https://kamal.alhumsi.me"
   },
-  "education": [
-    {
-      "area": "Bachelor of Science",
-      "endDate": "July 2021",
-      "highlights": [
-        "An interdisciplinary research program where I focused on Machine Learning & Neuroscience.",
-        "Selected courses: Data Structures And Algorithms, Cognitive Neuroscience, Machine Learning, Intelligent Systems.",
-        "Thesis: Analyzing Performance of Learning Methods for Software Effort Estimation."
-      ],
-      "institution": "Maastricht University",
-      "startDate": "September 2018",
-      "url": "https://curriculum.maastrichtuniversity.nl/education/bachelor/university-college-maastricht"
-    },
-    {
-      "area": "Bilingual International Baccalaureate",
-      "endDate": "May 2018",
-      "highlights": [
-        "Courses at Higher Level: Math, Physics and Arabic.",
-        "Courses at Standard Level: Economics, Environmental Systems & Societies and English B."
-
-      ],
-      "institution": "United World College Maastricht",
-      "startDate": "September 2016",
-      "url": "https://www.uwcmaastricht.nl/secondary-school/diploma-programme/"
-    }
-  ],
+  "education": [],
   "work": [
     {
-      "endDate": "June 2023",
       "highlights": [
-        "Contributed to the frontend of a pioneering [Security Review Environment](https://www.codean.io/review-environment) in a high-end development setting with industry-expert engineers.",
-        "Created a fully-tested cross-platform Shortcuts library (similar to the one in VS Code).",
-        "Created a [D3 Tree](https://observablehq.com/@d3/tree) for expressing the syntax of a file that is fully responsive and easily modifiable.",
-        "Developed security review functionalities utilizing the [Monaco Editor API](https://microsoft.github.io/monaco-editor/), which is the editor used in VS Code.",
-        "Achieved the minimum 75% test coverage requirement for pull requests and contributed to significant code refactors at both, the interface and architectural levels."
-      ],
-      "keywords": [
-        {
-          "link": "https://www.typescriptlang.org/",
-          "name": "TypeScript"
-        },
-        {
-          "link": "https://vuejs.org/guide/extras/composition-api-faq.html",
-          "name": "Vue 3 Composition API"
-        },
-        {
-          "link": "https://graphql.org/",
-          "name": "GraphQL"
-        },
-        {
-          "link": "https://tailwindcss.com/",
-          "name": "Tailwind"
-        },
-        {
-          "link": "https://vitest.dev/",
-          "name": "Vitest"
-        },
-        {
-          "link": "https://www.cypress.io/",
-          "name": "Cypress"
-        },
-        {
-          "link": "https://d3js.org/",
-          "name": "D3.js"
-        },
-        {
-          "link": "https://microsoft.github.io/monaco-editor/",
-          "name": "Monaco Editor"
-        }
-      ],
-      "name": "Codean",
-      "position": "Software Engineer",
-      "startDate": "Mar 2022",
-      "url": "https://www.codean.io/"
-    },
-    {
-      "endDate": "Feb 2022",
-      "highlights": [
-        "Was the main developer working on: [De Lerende Ambtenaar](https://delerendeambtenaar.nl/) that belongs to the [Dutch Certus Groep](https://www.certusgroep.nl/).",
-        "Built and refactored 50+ React functional components in the span of 7 months.",
-        "Given two presentations to a team of 15+ developers on how to improve the frontend architecture.",
-        "Enhanced the animations and transitions in the web app to run at 60fps.",
-        "Improved project planning on Jira and the processs of coordinating between backend and frontend."
+        "Led the entire frontend process by selecting technical stacks for projects, working closely with the design team, performing final checks, creating and assigning tasks to teammates, and reviewing PRs/MRs.",
+        "Collaborated with the project manager to clarify requirements, discuss business logic, and evaluate technical solutions.",
+        "Leveraged frontend principles and architectures, such as Monorepos, components structure (stateless and presentational), unit, integration and end-to-end testing, and CI/CD.",
+        "Developed the [Hashtagfox.com](https://hashtagfox.com/) platform using Vue.js with more than **100** components and **100** test cases. Achieved a code coverage of **75%**.",
+        "Designed and developed a robust email customer support platform for internal teams using React.js, featuring a user-friendly interface similar to Gmail, utilized by our customer support agents.",
+        "Developed and maintained large Node.js-TypeScript based code bases, over **50+** classes, including internal services, third-party services, controllers, and routes.",
+        "Designed and developed an internal task manager, with advanced features such as real-time updates and activity logs. Built the frontend using React TypeScript and the backend using Node.js TypeScript, with GCP cloud functions.",
+        "Developed over **six** [Gatsby](https://www.gatsbyjs.com/) landing pages that are SEO ready and have less than one second loading time",
+        "Developed multiple payment interfaces using Stripe, utilizing [Stripe elements](https://stripe.com/payments/elements) as well as standalone Stripe integration.",
+        "Expert with Firebase's various tools such as Firestore, real-time databases, authentication, hosting, storage, cloud functions, and Node.js SDK.",
+        "Created an advanced analytics dashboard, encompassing complex SQL aggregation queries consisting of more than **450 lines**, and developed over **20 queries**. The React.js-based dashboard provided critical insights to the organization, facilitating informed decision-making and leading to over **240k** [app](https://apps.apple.com/us/app/boost-app-social/id1551991915) installs.",
+        "Demonstrated proficiency with [Google's Bigquery](https://cloud.google.com/bigquery), optimized SQL aggregation queries using data partitioning and clustering, saving **46%** of the cost and accelerating query processing times **by six times.**",
+        "Built [GCP cloud functions](https://firebase.google.com/docs/functions/schedule-functions) for different use cases such as webhook integration, saving received events to our Firestore database, and streaming data to Bigquery database, with over **300k** events successfully saved.",
+        "Possess average experience writing deployment pipelines using [Ansible](https://www.ansible.com/).",
+        "Experience optimizing animation rendering to hit 60 fps"
       ],
       "keywords": [
         {
@@ -149,127 +81,174 @@
         {
           "link": "https://react.dev/",
           "name": "React"
-        },
-        {
-          "link": "https://react.dev/reference/react",
-          "name": "React hooks"
-        },
-        {
-          "link": "https://styled-components.com/",
-          "name": "Styled Components"
         },
         {
           "link": "https://nextjs.org/",
           "name": "Next.js"
         },
         {
-          "link": "https://react.i18next.com/",
-          "name": "Internationalization (i18n)"
+          "link": "https://vuejs.org/",
+          "name": "Vue"
+        },
+        {
+          "link": "https://nuxtjs.org/",
+          "name": "Nuxt.js"
+        },
+        {
+          "link": "https://mui.com/",
+          "name": "MUI"
+        },
+        {
+          "link": "https://www.fastify.io/",
+          "name": "Fastify"
+        },
+        {
+          "link": "https://www.gatsbyjs.org/",
+          "name": "Gatsby"
+        },
+        {
+          "link": "https://tailwindcss.com/",
+          "name": "Tailwind"
+        },
+        {
+          "link": "https://firebase.google.com/",
+          "name": "Firebase"
+        },
+        {
+          "link": "https://cloud.google.com/",
+          "name": "GCP"
+        },
+        {
+          "link": "https://cloud.google.com/bigquery",
+          "name": "Bigquery"
+        },
+        {
+          "link": "https://mixpanel.com/",
+          "name": "Mixpanel"
         }
       ],
-      "name": "Coffee IT",
+      "name": "Hashtagfox",
       "position": "Software Engineer",
-      "startDate": "Aug 2021",
-      "url": "https://coffeeit.nl/"
-    }, 
+      "startDate": "Jan 2020",
+      "endDate": "PRESENT",
+      "url": "https://www.hashtagfox.com/"
+    },
     {
-      "endDate": "April 2020",
       "highlights": [
-        "Was part of building a platform for [CJP](https://www.cjp.nl/) to allocate [14.3 million](https://np-cjp-production.s3-eu-west-1.amazonaws.com/Jaarverslag2021.pdf) euros to 711,685 students on the national level.",
-        "Advised the company on frontend architecture and technologies.",
-        "Developed backend and frontend features.",
-        "Reviewed code and wrote unit and integration tests."
+        "Developed high level microservices APIS that are based on PHP/Laravel.",
+        "Reviewed & modified other teammates code",
+        "Developed applications in modern workflows with CI\\CD pipelines and an iterative building process.",
+        "Wrote unit tests and designing different test cases."
       ],
       "keywords": [
         {
-          "link": "https://www.typescriptlang.org/",
-          "name": "TypeScript"
+          "link": "https://www.php.net/",
+          "name": "PHP"
         },
         {
           "link": "https://laravel.com/",
           "name": "Laravel"
         },
         {
-          "link": "https://www.djangoproject.com/",
-          "name": "Django"
+          "link": "https://vuejs.org/",
+          "name": "Vue"
         },
         {
-          "link": "https://react.dev/",
-          "name": "React"
-        },
+          "link": "https://tailwindcss.com/",
+          "name": "Tailwind"
+        }
+      ],
+      "name": "Team4Hire",
+      "position": "Software Engineer",
+      "startDate": "Oct 2019",
+      "endDate": "Jan 2020",
+      "url": "https://team4hire.nl/"
+    },
+    {
+      "highlights": [
+        "Joined Corptia as a front-end web developer after being invited by the founders.",
+        "Developed a Vue.js boilerplate admin panel, featuring a set of complex components like CRUD-generator component, while prioritizing ease of use, reusability, and performance.",
+        "Established a seamless GraphQL-based development workflow, leveraging GraphQL features such as fragments and aliases.",
+        "Collaborated closely with the design team and worked closely with the backend team to launch our GraphQL interfaces, and often provided additional help to the backend team.",
+        "Provided technical support to the mobile team on using Git and GraphQL."
+      ],
+      "keywords": [
         {
           "link": "https://vuejs.org/",
           "name": "Vue"
         },
         {
-          "link": "https://sass-lang.com/",
-          "name": "Sass"
+          "link": "https://graphql.org/",
+          "name": "GraphQL"
+        },
+        {
+          "link": "https://www.apollographql.com/",
+          "name": "Apollo"
+        },
+        {
+          "link": "https://nuxtjs.org/",
+          "name": "Nuxt.js"
+        },
+        {
+          "link": "https://nodejs.org/en",
+          "name": "Node.js"
+        },
+        {
+          "link": "https://expressjs.com/",
+          "name": "Express.js"
+        },
+        {
+          "link": "https://tailwindcss.com/",
+          "name": "Tailwind"
         }
       ],
-      "name": "Team4Hire",
-      "url": "https://team4hire.nl/",
+      "name": "Corptia",
       "position": "Software Engineer",
-      "startDate": "April 2019"
+      "startDate": "Jan 2019",
+      "endDate": "Nov 2019",
+      "url": "https://corptia.com/"
     },
     {
-      "endDate": "April 2019",
       "highlights": [
-        "Solely created and maintained a frontend for a platform that enhances citizen engagement using blockchain",
-        "Optimized the frontend fully; made it progressive, fast, and responsive."
+        "Started my career in the company as a junior developer.",
+        "Worked with top-class developers and learned a lot in a short amount of time.",
+        "Completed tasks assigned to me in various projects, which helped me gain extensive knowledge and experience."
       ],
       "keywords": [
         {
-          "link": "https://react.dev/",
-          "name": "React"
+          "link": "https://vuejs.org/",
+          "name": "Vue"
+        },
+        {
+          "link": "https://graphql.org/",
+          "name": "GraphQL"
+        },
+        {
+          "link": "https://www.apollographql.com/",
+          "name": "Apollo"
+        },
+        {
+          "link": "https://nuxtjs.org/",
+          "name": "Nuxt.js"
+        },
+        {
+          "link": "https://nodejs.org/en",
+          "name": "Node.js"
+        },
+        {
+          "link": "https://expressjs.com/",
+          "name": "Express.js"
         },
         {
           "link": "https://sass-lang.com/",
           "name": "Sass"
-        },
-        {
-          "link": "https://react.i18next.com/",
-          "name": "Internationalization (i18n)"
         }
       ],
-      "name": "CoTown",
-      "url": "https://cotown.io/",
-      "position": "Software Engineer (part-time)",
-      "startDate": "October 2018"
-    },
-    {
-      "endDate": "Feb 2016",
-      "highlights": [
-        "Was hired only at 17 years old with a team of engineers who were all graduates in their mid 20s.",
-        "Collaborated in building a real-estate CRM in SailsJS and MithrilJS and built several websites using Drupal and Wordpress.",
-        "Built a client-side state management library (like Redux/Vuex).",
-        "Gave a workshop on JavaScript’s prototypal inheritance and how it differs from class inheritance."
-      ],
-      "keywords": [
-        {
-          "link": "https://262.ecma-international.org/5.1/",
-          "name": "ECMAScript 5"
-        },
-        {
-          "link": "https://sailsjs.com/",
-          "name": "SailsJS"
-        },
-        {
-          "link": "https://mithril.js.org/",
-          "name": "MithrilJS"
-        },
-        {
-          "link": "https://wordpress.org/",
-          "name": "Wordpress"
-        },
-        {
-          "link": "https://www.drupal.org/",
-          "name": "Drupal"
-        }
-      ],
-      "name": "Nozol (eNichers)",
-      "position": "Software Developer",
-      "startDate": "June 2015",
-      "url": "https://www.crunchbase.com/organization/nozol-business"
+      "name": "Baianat",
+      "position": "Junior Software Engineer",
+      "startDate": "Aug 2018",
+      "endDate": "Dec 2018",
+      "url": "https://www.baianat.com/"
     }
   ],
   "skills": [

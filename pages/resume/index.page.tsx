@@ -19,9 +19,9 @@ export { SideTags as OutOfLayout } from './components/SideTags';
 export { DeploymentInfo as Footer } from './components/DeploymentInfo';
 
 export const documentProps: DocumentProps = {
-  title: 'Arabi Alhumsi - Résumé',
+  title: 'Kamal Eddin Alhumsi - Résumé',
   description:
-    'The résumé of Arabi Alhumsi - Built using vite-plugin-ssr and react.',
+    'The résumé of Kamal Eddin Alhumsi - Built using vite-plugin-ssr and react.',
 };
 
 export type ResumePageProps = PageProps & {
@@ -47,7 +47,6 @@ function Page({
       <Header basicInfo={basicInfoNoProfiles} />
       <AddressBar links={profiles} />
       <EmploymentSection work={work} />
-      <EducationSection education={education} />
       <AwardsSection awards={awards} />
       <AdditionalExperience additionalExperience={additionalExperience} />
     </>
