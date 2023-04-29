@@ -1,11 +1,12 @@
 {
   "awards": [
     "**Started writing code at 13 years old**: The first programming language I learned was Ruby.",
-    "**I was able to afford and buy my first car before I hit 18**: 2009 Red Chevrolet Optra."
+    "**Hired professionally at 16 years old**: Youngest hire in a 30+ people software company (Baianat).",
+    "**Bought my first car before 18 years old**: a 2009 Red Chevrolet Optra with earnings from software development."
   ],
   "additionalExperience": [
-    "**[Vuesax RTL Support](https://github.com/lusaxweb/vuesax/pull/659)**: Contributed to the Vuesax UI library by adding RTL support.",
-    "**[Turning E-commerce](https://www.turing.com/)**: This is a complete project built by me for turing.com, it was the first assessment of many which I succeeded.",
+    "**[Vuesax RTL Support](https://github.com/lusaxweb/vuesax/pull/659)**: Solely added RTL support to the [Vuesax UI](https://vuesax.com/) library.",
+    "**[Turning E-commerce](https://www.turing.com/)**: The first assessment of many that I succeeded for [Turing.com](https://turing.com) (Progressive E-commerce Web App).",
     "**[Hacktoberrank](https://github.com/paulodiovani/hacktoberrank)**: Contributed to the UI that ranked all participants in [Hacktoberfest](https://hacktoberfest.com/) 2019."
   ],
   "basics": {
@@ -57,21 +58,20 @@
   "work": [
     {
       "highlights": [
-        "Led the entire frontend process by selecting technical stacks for projects, working closely with the design team, performing final checks, creating and assigning tasks to teammates, and reviewing PRs/MRs.",
-        "Collaborated with the project manager to clarify requirements, discuss business logic, and evaluate technical solutions.",
-        "Leveraged frontend principles and architectures, such as Monorepos, components structure (stateless and presentational), unit, integration and end-to-end testing, and CI/CD.",
-        "Developed the [Hashtagfox.com](https://hashtagfox.com/) platform using Vue.js with more than **100** components and **100** test cases. Achieved a code coverage of **75%**.",
-        "Designed and developed a robust email customer support platform for internal teams using React.js, featuring a user-friendly interface similar to Gmail, utilized by our customer support agents.",
-        "Developed and maintained large Node.js-TypeScript based code bases, over **50+** classes, including internal services, third-party services, controllers, and routes.",
-        "Designed and developed an internal task manager, with advanced features such as real-time updates and activity logs. Built the frontend using React TypeScript and the backend using Node.js TypeScript, with GCP cloud functions.",
-        "Developed over **six** [Gatsby](https://www.gatsbyjs.com/) landing pages that are SEO ready and have less than one second loading time",
+        "Led the entire frontend process, supervising junior developers, creating technical tasks with the product owner and design team, reviewing PRs, and evaluating technical solutions.",
+        "Leveraged frontend architectures (Monorepos and Microservices) with comprehensive testing (unit, integration, and end-to-end) and **CI/CD**.",
+        "Developed the [Hashtagfox.com](https://hashtagfox.com/) platform using Vue.js with more than **100 components** and **100 test cases**. Achieved a code coverage of **75%**.",
+        "Developed an email customer support platform (similar to Gmail) for internal teams using React.js utilized by our customer support.",
+        "Maintained large Node.js-TypeScript code bases (**50+ classes**) including internal and third-party services using an **MVC** architecture.",
+        "Solely built an internal task manager, with features such as real-time updates and activity logs, using TypeScript, React, Node.js, and Firebase.",
+        "Developed over **six** [Gatsby](https://www.gatsbyjs.com/) landing pages that are SEO ready and have less than **one second** loading time. E.g. [Coolpic.io](https://coolpic.io)",
         "Developed multiple payment interfaces using Stripe, utilizing [Stripe elements](https://stripe.com/payments/elements) as well as standalone Stripe integration.",
-        "Expert with Firebase's various tools such as Firestore, real-time databases, authentication, hosting, storage, cloud functions, and Node.js SDK.",
-        "Created an advanced analytics dashboard, encompassing complex SQL aggregation queries consisting of more than **450 lines**, and developed over **20 queries**. The React.js-based dashboard provided critical insights to the organization, facilitating informed decision-making and leading to over **240k** [app](https://apps.apple.com/us/app/boost-app-social/id1551991915) installs.",
+        "Built **8+ projects** with Firebase's various tools such as Firestore, real-time databases, authentication, hosting, storage, and cloud functions.",
+        "Built an advanced analytics dashboard, encompassing complex SQL aggregation queries consisting of more than **450 lines**, and developed over **20 queries**. The React.js-based dashboard provided critical insights to the organization, facilitating informed decision-making and leading to over **240k** [app installs](https://apps.apple.com/us/app/boost-app-social/id1551991915).",
         "Demonstrated proficiency with [Google's Bigquery](https://cloud.google.com/bigquery), optimized SQL aggregation queries using data partitioning and clustering, saving **46%** of the cost and accelerating query processing times **by six times.**",
         "Built [GCP cloud functions](https://firebase.google.com/docs/functions/schedule-functions) for different use cases such as webhook integration, saving received events to our Firestore database, and streaming data to Bigquery database, with over **300k** events successfully saved.",
         "Possess average experience writing deployment pipelines using [Ansible](https://www.ansible.com/).",
-        "Experience optimizing animation rendering to hit 60 fps"
+        "Experience in optimizing animation and page rendering to **60fps**."
       ],
       "keywords": [
         {
@@ -97,6 +97,10 @@
         {
           "link": "https://mui.com/",
           "name": "MUI"
+        },
+        {
+          "link": "https://tailwindcss.com/",
+          "name": "Node.js"
         },
         {
           "link": "https://www.fastify.io/",
@@ -125,6 +129,10 @@
         {
           "link": "https://mixpanel.com/",
           "name": "Mixpanel"
+        },
+        {
+          "link": "https://www.redhat.com/en/topics/devops/what-is-ci-cd",
+          "name": "CI/CD"
         }
       ],
       "name": "Hashtagfox",

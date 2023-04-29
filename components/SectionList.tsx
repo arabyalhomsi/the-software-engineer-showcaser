@@ -19,7 +19,7 @@ function SectionList({ type, points }: SectionListProps) {
   const ListMembers = points.map((content, index) => {
     return (
       <li
-        className="flex flex-row items-start gap-2 leading-[1.52rem]"
+        className="flex flex-row items-start gap-2 leading-[1.66rem]"
         key={index}
       >
         <Icon
@@ -31,7 +31,7 @@ function SectionList({ type, points }: SectionListProps) {
           height={12}
         />
 
-        <ReactMarkdown children={content} className='whitespace-pre-wrap' />
+        <ReactMarkdown children={content} className="whitespace-pre-wrap" />
       </li>
     );
   });
