@@ -47,6 +47,11 @@ export interface Education {
   url: string;
 }
 
+export interface SkillContainer {
+  name: string;
+  skills: Skill[]
+}
+
 export interface Skill {
   name: string;
   link: string;
