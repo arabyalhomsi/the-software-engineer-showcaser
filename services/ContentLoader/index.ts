@@ -3,6 +3,7 @@ import {
   Awards,
   BasicInfo,
   Education,
+  Skill,
   Work,
 } from './types';
 
@@ -65,6 +66,20 @@ export function getWork(resumeData: unknown): Work[] {
   }
 
   return resumeData[field] as Work[];
+}
+
+export function getSkills(resumeData: unknown): Skill[] {
+  const field = 'skills';
+
+  if (
+    resumeData === null ||
+    typeof resumeData !== 'object' ||
+    !(field in resumeData)
+  ) {
+    throw new Error(makeMissingFieldErrorMessage(field));
+  }
+
+  return resumeData[field] as Skill[];
 }
 
 export const getBasicInfo = (resumeData: unknown): BasicInfo => {

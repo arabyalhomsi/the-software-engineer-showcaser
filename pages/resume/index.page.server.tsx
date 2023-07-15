@@ -4,6 +4,7 @@ import {
   getAwards,
   getBasicInfo,
   getEducation,
+  getSkills,
   getWork,
 } from '#root/services/ContentLoader';
 import { ResumePageProps } from './index.page';
@@ -11,6 +12,7 @@ import { ResumePageProps } from './index.page';
 export function onBeforeRender() {
   const basicInfo = getBasicInfo(resumeJson);
   const work = getWork(resumeJson);
+  const skills = getSkills(resumeJson);
   const awards = getAwards(resumeJson);
   const education = getEducation(resumeJson);
   const additionalExperience = getAdditionalExperience(resumeJson);
@@ -19,6 +21,7 @@ export function onBeforeRender() {
     basicInfo,
     work,
     awards,
+    skills,
     education,
     additionalExperience,
   };
