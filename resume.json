@@ -16,21 +16,63 @@
     "image": "/assets/images/profile-photo.jpeg",
     "name": "Abdullah Alhumsi",
     "nameKerned": [
-      {"character": "A", "letterSpacing": "-0.01em"},
-      {"character": "b", "letterSpacing": "-0.05em"},
-      {"character": "d", "letterSpacing": "-0.08em"},
-      {"character": "u", "letterSpacing": "-.05em"},
-      {"character": "l", "letterSpacing": "-.06em"},
-      {"character": "l", "letterSpacing": "-.08em"},
-      {"character": "a", "letterSpacing": "-.08em"},
-      {"character": "h", "letterSpacing": "-.06em"},
+      {
+        "character": "A",
+        "letterSpacing": "-0.01em"
+      },
+      {
+        "character": "b",
+        "letterSpacing": "-0.05em"
+      },
+      {
+        "character": "d",
+        "letterSpacing": "-0.08em"
+      },
+      {
+        "character": "u",
+        "letterSpacing": "-.05em"
+      },
+      {
+        "character": "l",
+        "letterSpacing": "-.06em"
+      },
+      {
+        "character": "l",
+        "letterSpacing": "-.08em"
+      },
+      {
+        "character": "a",
+        "letterSpacing": "-.08em"
+      },
+      {
+        "character": "h",
+        "letterSpacing": "-.06em"
+      },
       " ",
-      {"character": "A", "letterSpacing": "0.02em"},
-      {"character": "l", "letterSpacing": "0.02em"},
-      {"character": "h", "letterSpacing": "-.09em"},
-      {"character": "u", "letterSpacing": "-.03em"},
-      {"character": "m", "letterSpacing": "-.03em"},
-      {"character": "s", "letterSpacing": "-.04em"},
+      {
+        "character": "A",
+        "letterSpacing": "0.02em"
+      },
+      {
+        "character": "l",
+        "letterSpacing": "0.02em"
+      },
+      {
+        "character": "h",
+        "letterSpacing": "-.09em"
+      },
+      {
+        "character": "u",
+        "letterSpacing": "-.03em"
+      },
+      {
+        "character": "m",
+        "letterSpacing": "-.03em"
+      },
+      {
+        "character": "s",
+        "letterSpacing": "-.04em"
+      },
       "i"
     ],
     "phone": "+20 106 199 4948",
@@ -119,20 +161,38 @@
   ],
   "skills": [
     {
-      "name": "React",
-      "link": "http://blabla.com"
+      "name": "Front-End",
+      "skills": [
+        {
+          "name": "PHP",
+          "link": "https://www.php.net/"
+        },
+        {
+          "name": "Python",
+          "link": "https://www.python.org/"
+        },
+        {
+          "name": "C#",
+          "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/"
+        }
+      ]
     },
     {
-      "name": "Vue",
-      "link": "http://blabla.com"
-    },
-    {
-      "name": "Sails",
-      "link": "http://blabla.com"
-    },
-    {
-      "name": "Styled Components",
-      "link": "http://blabla.com"
+      "name": "Back-End",
+      "skills": [
+        {
+          "name": "PHP",
+          "link": "https://www.php.net/"
+        },
+        {
+          "name": "Python",
+          "link": "https://www.python.org/"
+        },
+        {
+          "name": "C#",
+          "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/"
+        }
+      ]
     }
   ]
 }

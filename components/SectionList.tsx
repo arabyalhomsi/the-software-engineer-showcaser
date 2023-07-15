@@ -19,7 +19,7 @@ function SectionList({ type, points }: SectionListProps) {
   const ListMembers = points.map((content, index) => {
     return (
       <li
-        className="flex flex-row items-start gap-2 leading-[1.52rem]"
+        className="flex flex-row items-start gap-2 leading-9"
         key={index}
       >
         <Icon
