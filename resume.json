@@ -1,10 +1,8 @@
 {
   "awards": [
-    "**Selected to attend a United World College (UWCM)**: Out of 428 applicants from Syria, [13 were chosen](https://www.sy.uwc.org/uwc-experience/meet-our-scholars) in 2016.",
-    "**[Horizon Foundation](https://horizonfoundation.info/) Scholar**: Full scholarship (+70K €) to pay for UWCM and 10 year support after graduation",
-    "**Maastricht University Scholar**: Full scholarship (+80K €) which is given to only 5 people each year.",
-    "**Started writing code at 14 years old**: The first programming language I learned was Pascal",
-    "**Until I was 17, I did  many manual labor jobs to support my family**: bakery, print shop, car wash, handyman, and more."
+    "**Abdullah Bird School**: I got my high school diploma with a GPA of 88.4 in the basement where we lived. It was 16' long by 1 wide. We were 6 of us and it was corona pandemic time.",
+    "**Started writing code at 17 years old**: The first programming language I learned was C#",
+    "**Until I was 15, I did  many manual labor jobs to support my family**: Restuarant, Labtop maintenance, delivery, Electrical extension worker, and more."
   ],
   "additionalExperience": [
     "**[LaraJS Validator](https://www.npmjs.com/package/larajs-validator)**: Created a JavaScript validation library with the style of Laravel, at 17 years old. [+4K downloads](https://npm-stat.com/charts.html?package=larajs-validator&from=2014-01-06&to=2023-04-06).",
@@ -63,59 +61,54 @@
   "education": [
     {
       "area": "Bachelor of Science",
-      "endDate": "July 2021",
+      "endDate": "July 2022",
       "highlights": [
-        "An interdisciplinary research program where I focused on Machine Learning & Neuroscience.",
-        "Selected courses: Data Structures And Algorithms, Cognitive Neuroscience, Machine Learning, Intelligent Systems.",
-        "Thesis: Analyzing Performance of Learning Methods for Software Effort Estimation."
+        "A multidisciplinary research program that focused on programming, networking, and laptop and computer maintenance.",
+        "Selected courses: Data Structures And Algorithms, solid principles, Computer and laptop maintenance."
       ],
       "institution": "Damasucs University",
       "startDate": "September 2020",
-      "url": "https://curriculum.maastrichtuniversity.nl/education/bachelor/university-college-maastricht"
+      "url": "https://www.damascusuniversity.edu.sy/fmee/"
     }
   ],
   "work": [
     {
       "endDate": "Present",
       "highlights": [
-        "Contributed to the frontend of a pioneering [Security Review Environment](https://www.codean.io/review-environment) in a high-end development setting with industry-expert engineers.",
-        "Created a fully-tested cross-platform Shortcuts library (similar to the one in VS Code).",
-        "Created a [D3 Tree](https://observablehq.com/@d3/tree) for expressing the syntax of a file that is fully responsive and easily modifiable.",
-        "Developed security review functionalities utilizing the [Monaco Editor API](https://microsoft.github.io/monaco-editor/), which is the editor used in VS Code.",
-        "Achieved the minimum 75% test coverage requirement for pull requests and contributed to significant code refactors at both, the interface and architectural levels."
+        "Enabled waste recycling site development, showcased programming skills for positive environmental impact. [Enviro Group](https://envirogroup.io/en) in a high-end development setting with industry-expert engineers.",
+        "Created a [Solar Valley](https://solarvalleypv.com/en) Collaborated on Solar Valley Recreate site development, showcasing programming expertise.",
+        "Developed site modification [Makasip](https://makasip.com/), allowing users to showcase, share, and monetize their creations through a points system.",
+        "Managed product inventory and coordinated with restaurant and cafe representatives [Loyalty](https://makasip.com/), for efficient supply chain management.",
+        "Developed and implemented a project for a remote physics professor, teaching students how to create, answer, and engage with educational videos."
       ],
       "keywords": [
         {
-          "link": "https://www.typescriptlang.org/",
-          "name": "TypeScript"
+          "link": "https://www.php.net/",
+          "name": "Php"
         },
         {
-          "link": "https://vuejs.org/guide/extras/composition-api-faq.html",
-          "name": "Vue 3 Composition API"
+          "link": "https://laravel.com/",
+          "name": "Laravel"
         },
         {
-          "link": "https://graphql.org/",
-          "name": "GraphQL"
+          "link": "https://getbootstrap.com/",
+          "name": "Bootstrap"
         },
         {
-          "link": "https://tailwindcss.com/",
-          "name": "Tailwind"
+          "link": "https://www.tutorialspoint.com/laravel/laravel_ajax.htm",
+          "name": "Ajax"
         },
         {
-          "link": "https://vitest.dev/",
-          "name": "Vitest"
+          "link": "https://jquery.com/",
+          "name": "JQuery"
         },
         {
-          "link": "https://www.cypress.io/",
-          "name": "Cypress"
+          "link": "https://www.mysql.com/",
+          "name": "Mysql"
         },
         {
-          "link": "https://d3js.org/",
-          "name": "D3.js"
-        },
-        {
-          "link": "https://microsoft.github.io/monaco-editor/",
-          "name": "Monaco Editor"
+          "link": "https://laravel.com/docs/10.x/eloquent-resources",
+          "name": "Laravel Api"
         }
       ],
       "name": "Top Business",
