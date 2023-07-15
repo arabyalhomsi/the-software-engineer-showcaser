@@ -47,5 +47,19 @@ export interface Education {
   url: string;
 }
 
+export interface Skill {
+  name: string;
+  link: string;
+}
+
+export interface Education {
+  area: string;
+  endDate: string;
+  startDate: string;
+  highlights: string[];
+  institution: string;
+  url: string;
+}
+
 export type Awards = string[];
 export type AdditionalExperience = string[];

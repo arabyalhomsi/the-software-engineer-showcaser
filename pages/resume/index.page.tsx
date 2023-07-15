@@ -10,9 +10,11 @@ import {
   Awards,
   BasicInfo,
   Education,
+  Skill,
   Work,
 } from '#root/services/ContentLoader/types';
 import { AdditionalExperience } from './components/AdditionalExperience';
+import { SkillsSection } from './components/SkillsSection';
 export { Page };
 export { ShowcaseLayout as Layout } from '#root/layouts/ShowcaseLayout';
 export { SideTags as OutOfLayout } from './components/SideTags';
@@ -29,6 +31,7 @@ export type ResumePageProps = PageProps & {
   work: Work[];
   awards: Awards;
   education: Education[];
+  skills: Skill[];
   additionalExperience: AdditionalExperienceType;
 };
 

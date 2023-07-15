@@ -126,13 +126,20 @@
   ],
   "skills": [
     {
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "level": "Master",
-      "name": "Web Development"
+      "name": "React",
+      "link": "http://blabla.com"
+    },
+    {
+      "name": "Vue",
+      "link": "http://blabla.com"
+    },
+    {
+      "name": "Sails",
+      "link": "http://blabla.com"
+    },
+    {
+      "name": "Styled Components",
+      "link": "http://blabla.com"
     }
   ]
 }
