@@ -164,16 +164,28 @@
       "name": "Front-End",
       "skills": [
         {
-          "name": "PHP",
-          "link": "https://www.php.net/"
+          "name": "HTML",
+          "link": "https://www.w3schools.com/html/"
         },
         {
-          "name": "Python",
-          "link": "https://www.python.org/"
+          "name": "CSS",
+          "link": "https://www.w3schools.com/css/"
         },
         {
-          "name": "C#",
-          "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/"
+          "name": "Bootstrap",
+          "link": "https://getbootstrap.com/"
+        },
+        {
+          "name": "JS",
+          "link": "https://www.w3schools.com/js/"
+        },
+        {
+          "name": "Ajax",
+          "link": "https://www.w3schools.com/js/js_ajax_intro.asp"
+        },
+        {
+          "name": "Vue",
+          "link": "https://vuejs.org/"
         }
       ]
     },
@@ -185,12 +197,49 @@
           "link": "https://www.php.net/"
         },
         {
+          "name": "Laravel",
+          "link": "https://laravel.com/"
+        },
+        {
           "name": "Python",
           "link": "https://www.python.org/"
         },
         {
+          "name": "Django",
+          "link": "https://www.djangoproject.com/"
+        },
+        {
           "name": "C#",
           "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "skills": [
+        {
+          "name": "Git",
+          "link": "https://git-scm.com/"
+        },
+        {
+          "name": "Github",
+          "link": "https://github.com/"
+        },
+        {
+          "name": "Gitlab",
+          "link": "https://about.gitlab.com/"
+        },
+        {
+          "name": "Docker",
+          "link": "https://www.docker.com/"
+        },
+        {
+          "name": "Nginx",
+          "link": "https://www.nginx.com/"
+        },
+        {
+          "name": "Linux",
+          "link": "https://www.linux.org/"
         }
       ]
     }
