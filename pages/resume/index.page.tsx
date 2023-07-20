@@ -53,8 +53,8 @@ function Page({
       <EmploymentSection work={work} />
       <EducationSection education={education} />
       <AwardsSection awards={awards} />
+      <AdditionalExperience additionalExperience={additionalExperience} />
       <SkillsSection skills={skills} />
-      {/* <AdditionalExperience additionalExperience={additionalExperience} /> */}
     </>
   );
 }

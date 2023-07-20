@@ -1,14 +1,12 @@
 {
   "awards": [
-    "**Abdullah Bird School**: I got my high school diploma with a GPA of 88.4 in the basement where we lived. It was 16' long by 1 wide. We were 6 of us and it was corona pandemic time.",
+    "**Abdullah Altair High School**: I got my high school diploma with a GPA of 88.4 in the basement where we lived. It was 16 feet' long by 1 feet wide. We were 6 of us and it was corona pandemic time.",
     "**Started writing code at 17 years old**: The first programming language I learned was C#",
-    "**Until I was 15, I did  many manual labor jobs to support my family**: Restuarant, Labtop maintenance, delivery, Electrical extension worker, and more."
+    "**Until I was 15, I did  many manual labor jobs to support my family**: Restuarant, Labtop maintenance, delivery, Electrical extension worker, and more.",
+    " **I crafted a Telegram bot for the restaurant**: It helped customers find prices and branch locations, saving them time and hassle. Proud of this innovation and eager for more challenges ahead."
   ],
   "additionalExperience": [
-    "**[LaraJS Validator](https://www.npmjs.com/package/larajs-validator)**: Created a JavaScript validation library with the style of Laravel, at 17 years old. [+4K downloads](https://npm-stat.com/charts.html?package=larajs-validator&from=2014-01-06&to=2023-04-06).",
-    "**[The Software Engineer Showcaser](https://github.com/arabyalhomsi/the-software-engineer-showcaser)**: Created an open source website and resume. This resume is made with it.",
-    "**[Hacktoberrank](https://github.com/paulodiovani/hacktoberrank)**: Programmed the entire NodeJS backend that ranked all participants in [Hacktoberfest](https://hacktoberfest.com/) 2019.",
-    "**[Care4Calais](https://care4calais.org/)**: Volunteered in one of the most dangeroues refugee camps in Europe."
+    "**[The Software Engineer Showcaser](https://github.com/arabyalhomsi/the-software-engineer-showcaser)**: Add a Section Skills To Resume."
   ],
   "basics": {
     "address": "Sheppen Alkoom, Menoufia, Egypt",
@@ -84,7 +82,7 @@
       },
       {
         "icon": "linkedin",
-        "url": "https://www.linkedin.com/in/abdullah-alhumsi-bb5223235/",
+        "url": "https://www.linkedin.com/in/abdullah-alhumsi-979387284/",
         "username": "abdullahalhumsi"
       },
       {
@@ -106,7 +104,9 @@
       "endDate": "July 2022",
       "highlights": [
         "A multidisciplinary research program that focused on programming, networking, and laptop and computer maintenance.",
-        "Selected courses: Data Structures And Algorithms, solid principles, Computer and laptop maintenance."
+        "Selected courses: Data Structures And Algorithms, solid principles, Computer and laptop maintenance.",
+        "Engaged in a multidisciplinary research program covering programming, networking, and computer maintenance. Completed selected courses in Data Structures and Algorithms, Solid Principles, and Computer and Laptop Maintenanc",
+        "Eager to apply this knowledge to contribute effectively in a professional setting. I look forward to leveraging my skills in dynamic and challenging projects, driving positive change and growth."
       ],
       "institution": "Damasucs University",
       "startDate": "September 2020",
@@ -118,10 +118,11 @@
       "endDate": "Present",
       "highlights": [
         "Enabled waste recycling site development, showcased programming skills for positive environmental impact. [Enviro Group](https://envirogroup.io/en) in a high-end development setting with industry-expert engineers.",
-        "Created a [Solar Valley](https://solarvalleypv.com/en) Collaborated on Solar Valley Recreate site development, showcasing programming expertise.",
+        "Collaborated [Solar Valley](https://solarvalleypv.com/en) site development, showcasing programming expertise.",
         "Developed site modification [Makasip](https://makasip.com/), allowing users to showcase, share, and monetize their creations through a points system.",
         "Managed product inventory and coordinated with restaurant and cafe representatives [Loyalty](https://makasip.com/), for efficient supply chain management.",
-        "Developed and implemented a project for a remote physics professor, teaching students how to create, answer, and engage with educational videos."
+        "Developed and implemented a project for a remote physics professor, teaching students how to create, answer, and engage with educational videos.",
+        "Contributed [university](https://faculty.topbusiness.io/) to Laravel-based university management system development. Strengthened technical expertise and teamwork skills."
       ],
       "keywords": [
         {
@@ -154,8 +155,8 @@
         }
       ],
       "name": "Top Business",
-      "position": "Software Engineer",
-      "startDate": "Feb 2022",
+      "position": "Junior Software Engineer",
+      "startDate": "Jun 2023",
       "url": "https://topbusiness.io/"
     }
   ],
@@ -244,4 +245,5 @@
       ]
     }
   ]
+
 }
