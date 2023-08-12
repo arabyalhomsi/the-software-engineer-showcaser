@@ -241,6 +241,10 @@
         {
           "name": "Linux",
           "link": "https://www.linux.org/"
+        },
+        {
+          "name": "CI/CD",
+          "link": "https://www.synopsys.com/glossary/what-is-cicd.html#:~:text=CI%20and%20CD%20stand%20for,are%20made%20frequently%20and%20reliably."
         }
       ]
     }
