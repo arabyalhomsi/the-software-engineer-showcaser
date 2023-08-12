@@ -3,7 +3,7 @@ import {
   Awards,
   BasicInfo,
   Education,
-  Skill,
+  SkillContainer,
   Work,
 } from './types';
 
@@ -68,7 +68,7 @@ export function getWork(resumeData: unknown): Work[] {
   return resumeData[field] as Work[];
 }
 
-export function getSkills(resumeData: unknown): Skill[] {
+export function getSkills(resumeData: unknown): SkillContainer[] {
   const field = 'skills';
 
   if (
@@ -79,7 +79,7 @@ export function getSkills(resumeData: unknown): Skill[] {
     throw new Error(makeMissingFieldErrorMessage(field));
   }
 
-  return resumeData[field] as Skill[];
+  return resumeData[field] as SkillContainer[];
 }
 
 export const getBasicInfo = (resumeData: unknown): BasicInfo => {
