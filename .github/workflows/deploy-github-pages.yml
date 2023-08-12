@@ -3,7 +3,7 @@ name: Build and Deploy to GitHub Pages
 on:
   push:
     branches:
-      - arabi.alhumsi.me
+      - abdullah.alhumsi.me
 
 jobs:
   build-and-deploy:

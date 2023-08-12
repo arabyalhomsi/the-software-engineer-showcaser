@@ -3,10 +3,10 @@
     "**Abdullah Altair High School**: I got my high school diploma with a GPA of 88.4 in the basement where we lived. It was 16 feet' long by 1 feet wide. We were 6 of us and it was corona pandemic time.",
     "**Started writing code at 17 years old**: The first programming language I learned was C#",
     "**Until I was 15, I did  many manual labor jobs to support my family**: Restuarant, Labtop maintenance, delivery, Electrical extension worker, and more.",
-    " **I crafted a Telegram bot for the restaurant**: It helped customers find prices and branch locations, saving them time and hassle. Proud of this innovation and eager for more challenges ahead."
+    " **I created a Telegram bot for the restaurant**: It helped customers find prices and branch locations, saving them time and hassle. Proud of this innovation and eager for more challenges ahead."
   ],
   "additionalExperience": [
-    "**[The Software Engineer Showcaser](https://github.com/arabyalhomsi/the-software-engineer-showcaser)**: Add a Section Skills To Resume."
+    "**[The Software Engineer Showcaser](https://github.com/arabyalhomsi/the-software-engineer-showcaser)**: An open source resume application I used for this resume. I contributed by adding a skills section functionality. "
   ],
   "basics": {
     "address": "Sheppen Alkoom, Menoufia, Egypt",
@@ -105,7 +105,6 @@
       "highlights": [
         "A multidisciplinary research program that focused on programming, networking, and laptop and computer maintenance.",
         "Selected courses: Data Structures And Algorithms, solid principles, Computer and laptop maintenance.",
-        "Engaged in a multidisciplinary research program covering programming, networking, and computer maintenance. Completed selected courses in Data Structures and Algorithms, Solid Principles, and Computer and Laptop Maintenanc",
         "Eager to apply this knowledge to contribute effectively in a professional setting. I look forward to leveraging my skills in dynamic and challenging projects, driving positive change and growth."
       ],
       "institution": "Damasucs University",
@@ -117,12 +116,13 @@
     {
       "endDate": "Present",
       "highlights": [
-        "Enabled waste recycling site development, showcased programming skills for positive environmental impact. [Enviro Group](https://envirogroup.io/en) in a high-end development setting with industry-expert engineers.",
-        "Collaborated [Solar Valley](https://solarvalleypv.com/en) site development, showcasing programming expertise.",
-        "Developed site modification [Makasip](https://makasip.com/), allowing users to showcase, share, and monetize their creations through a points system.",
-        "Managed product inventory and coordinated with restaurant and cafe representatives [Loyalty](https://makasip.com/), for efficient supply chain management.",
-        "Developed and implemented a project for a remote physics professor, teaching students how to create, answer, and engage with educational videos.",
-        "Contributed [university](https://faculty.topbusiness.io/) to Laravel-based university management system development. Strengthened technical expertise and teamwork skills."
+        "Contributed to [SPA](https://spa.topbusiness.io/), a laravel based web platform for one of the biggest beauty centers in Cairo, Implemented CRUD operations, search capabilities, and pagination within a web-based control panel. Implemented performant data querying by only selecting necessary columns and ensured reliability by creating seed files for comprehensive testing.",
+        "Contributed to [Enviro Group](https://envirogroup.io/en), a waste recycling company, Developed a highly reliable laravel based dashboard, with full CRUD for all data models. also I heleped my team developing the interface by overrcoming complex javascript/DOM issues.",
+        "Played an integral role in the advancement of the [Solar Vally](https://solarvalleypv.com/en) project, highlighting remarkable programming proficiency through the conception of a dynamic dashboard and successful execution of a comprehensive CRUD system, featuring flawless image upload capabilities",
+        "Developed site modification [Makasip](https://makasip.com/), Dynamic Points System: Engineered Makasip's dynamic points system, rewarding users (10 points at login, up to 20 daily, stabilizing at 50), with an automated reset for inactivity, ensuring continuous engagement, Referral Link Innovation: Pioneered referral links, securing 10 points for initiators upon new user registration. Strategically amplified user acquisition and engagement.",
+        "Oversaw product inventory and collaborated with restaurant and cafe representatives, optimizing supply chain management for enhanced efficiency and [Loyalty](https://play.google.com/store/apps/details?id=com.topbusiness.walaaprovider)",
+        "Designed and executed a project for a remote physics professor, enabling student education through the creation, response, and interaction with instructional videos.",
+        "Contributed to a Laravel-based [university](https://faculty.topbusiness.io/) management system. Strengthened technical expertise and teamwork skills."
       ],
       "keywords": [
         {
@@ -156,7 +156,7 @@
       ],
       "name": "Top Business",
       "position": "Junior Software Engineer",
-      "startDate": "Jun 2023",
+      "startDate": "Jan 2023",
       "url": "https://topbusiness.io/"
     }
   ],
