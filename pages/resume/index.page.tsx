@@ -10,7 +10,7 @@ import {
   Awards,
   BasicInfo,
   Education,
-  Skill,
+  SkillContainer,
   Work,
 } from '#root/services/ContentLoader/types';
 import { AdditionalExperience } from './components/AdditionalExperience';
@@ -31,7 +31,7 @@ export type ResumePageProps = PageProps & {
   work: Work[];
   awards: Awards;
   education: Education[];
-  skills: Skill[];
+  skills: SkillContainer[];
   additionalExperience: AdditionalExperienceType;
 };
 
