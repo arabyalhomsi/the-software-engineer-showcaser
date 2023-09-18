@@ -49,7 +49,7 @@ export interface Education {
 
 export interface SkillContainer {
   name: string;
-  skills: Skill[];
+  skills: Skill[]
 }
 
 export interface Skill {
