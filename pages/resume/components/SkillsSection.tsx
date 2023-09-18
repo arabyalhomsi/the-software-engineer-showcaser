@@ -11,16 +11,18 @@ type SkillsProps = {
 function SkillsSection({ skills }: SkillsProps) {
   const skillContainersList = skills.map((skillContainer) => {
     return (
-      <div className="row ml-2 flex items-center">
+      <div className="flex row items-center ml-2">
         <span>{skillContainer.name}: </span>
         <SectionTags tags={skillContainer.skills} big />
       </div>
-    );
-  });
+    )
+  })
 
   return (
     <SectionContainer title="Skills">
-      <div className="mb-2">{skillContainersList}</div>
+      <div className="mb-2">
+        {skillContainersList}
+      </div>
     </SectionContainer>
   );
 }
