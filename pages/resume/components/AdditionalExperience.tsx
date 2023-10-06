@@ -12,7 +12,7 @@ function AdditionalExperience({
   additionalExperience,
 }: AdditionalExperienceProps) {
   return (
-    <SectionContainer title="Open Source And Volunteering">
+    <SectionContainer title="Open Source">
       <div className="mb-2">
         <SectionList type={ListType.BULLET} points={additionalExperience} />
       </div>
