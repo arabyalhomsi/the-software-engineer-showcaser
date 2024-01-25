@@ -9,7 +9,7 @@
     "**[The Software Engineer Showcaser](https://github.com/arabyalhomsi/the-software-engineer-showcaser)**: An open source resume application I used for this resume. I contributed by adding a skills section functionality. "
   ],
   "basics": {
-    "address": "Sheppen Alkoom, Menoufia, Egypt",
+    "address": "Cairo, Egypt",
     "email": "abdullah.alhumsi9@gmail.com",
     "image": "/assets/images/profile-photo.jpeg",
     "name": "Abdullah Alhumsi",
@@ -116,7 +116,8 @@
     {
       "endDate": "Present",
       "highlights": [
-        "Contributed to [SPA](https://spa.topbusiness.io/), a laravel based web platform for one of the biggest beauty centers in Cairo, Implemented CRUD operations, search capabilities, and pagination within a web-based control panel. Implemented performant data querying by only selecting necessary columns and ensured reliability by creating seed files for comprehensive testing.",
+        "I successfully built the Arabian Horse website [Arabian Horse](https://arabian-horse.topbusiness.io/) using PHP Laravel. This platform focuses on horse care, specifically tailored for Arabian breeds. To enhance backend management, I incorporated the Filament package, ensuring efficient content updates and streamlined administrative processes. This project reflects my commitment to delivering robust and user-friendly web solutions in the equestrian domain.",
+        "Contributed to [SPA](https://spallia.com/), a laravel based web platform for one of the biggest beauty centers in Cairo, Implemented CRUD operations, search capabilities, and pagination within a web-based control panel. Implemented performant data querying by only selecting necessary columns and ensured reliability by creating seed files for comprehensive testing.",
         "Contributed to [Enviro Group](https://envirogroup.io/en), a waste recycling company, Developed a highly reliable laravel based dashboard, with full CRUD for all data models. also I heleped my team developing the interface by overrcoming complex javascript/DOM issues.",
         "Played an integral role in the advancement of the [Solar Vally](https://solarvalleypv.com/en) project, highlighting remarkable programming proficiency through the conception of a dynamic dashboard and successful execution of a comprehensive CRUD system, featuring flawless image upload capabilities",
         "Developed site modification [Makasip](https://makasip.com/), Dynamic Points System: Engineered Makasip's dynamic points system, rewarding users (10 points at login, up to 20 daily, stabilizing at 50), with an automated reset for inactivity, ensuring continuous engagement, Referral Link Innovation: Pioneered referral links, securing 10 points for initiators upon new user registration. Strategically amplified user acquisition and engagement.",
@@ -258,10 +259,6 @@
         {
           "name": "Inertia",
           "link": "https://inertiajs.com/"
-        },
-        {
-          "name": "Gitlab",
-          "link": "https://about.gitlab.com/"
         },
         {
           "name": "LIveWire",
