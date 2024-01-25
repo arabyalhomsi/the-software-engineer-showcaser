@@ -4,7 +4,7 @@ body {
   @apply antialiased md:bg-indigo-50;
   @apply print:bg-white;
 
-  font-size: 15px;
+  font-size: 14px;
 }
 
 a,
