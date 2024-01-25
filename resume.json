@@ -154,6 +154,10 @@
         {
           "link": "https://laravel.com/docs/10.x/eloquent-resources",
           "name": "Laravel Api"
+        },
+        {
+          "link": "https://filamentphp.com/",
+          "name": "Filament"
         }
       ],
       "name": "Top Business",
