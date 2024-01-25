@@ -249,35 +249,31 @@
       ]
     },
     {
-      "name": "DevOps",
+      "name": "Ecosystem",
       "skills": [
         {
-          "name": "Git",
-          "link": "https://git-scm.com/"
+          "name": "Breeze",
+          "link": "https://laravel.com/docs/10.x/starter-kits#laravel-breeze"
         },
         {
-          "name": "Github",
-          "link": "https://github.com/"
+          "name": "Inertia",
+          "link": "https://inertiajs.com/"
         },
         {
           "name": "Gitlab",
           "link": "https://about.gitlab.com/"
         },
         {
-          "name": "Docker",
-          "link": "https://www.docker.com/"
+          "name": "LIveWire",
+          "link": "https://livewire.laravel.com/"
         },
         {
-          "name": "Nginx",
-          "link": "https://www.nginx.com/"
+          "name": "Forge",
+          "link": "https://forge.laravel.com/"
         },
         {
-          "name": "Linux",
-          "link": "https://www.linux.org/"
-        },
-        {
-          "name": "CI/CD",
-          "link": "https://www.synopsys.com/glossary/what-is-cicd.html#:~:text=CI%20and%20CD%20stand%20for,are%20made%20frequently%20and%20reliably."
+          "name": "Alpinejs",
+          "link": "https://alpinejs.dev/"
         }
       ]
     }
