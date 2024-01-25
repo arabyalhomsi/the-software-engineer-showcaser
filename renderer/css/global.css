@@ -19,7 +19,7 @@ a:not(.tag):hover {
 @screen md {
   html,
   body {
-    font-size: 10.12px;
+    font-size: 9px;
   }
 }
 
