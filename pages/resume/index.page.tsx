@@ -10,7 +10,7 @@ import {
   Awards,
   BasicInfo,
   Education,
-  Skill,
+  SkillContainer,
   Work,
 } from '#root/services/ContentLoader/types';
 import { AdditionalExperience } from './components/AdditionalExperience';
@@ -21,9 +21,9 @@ export { SideTags as OutOfLayout } from './components/SideTags';
 export { DeploymentInfo as Footer } from './components/DeploymentInfo';
 
 export const documentProps: DocumentProps = {
-  title: 'Arabi Alhumsi - Résumé',
+  title: 'Abdullah Alhumsi - Résumé',
   description:
-    'The résumé of Arabi Alhumsi - Built using vite-plugin-ssr and react.',
+    'The résumé of Abdullah Alhumsi - Built using vite-plugin-ssr and react.',
 };
 
 export type ResumePageProps = PageProps & {
@@ -31,13 +31,14 @@ export type ResumePageProps = PageProps & {
   work: Work[];
   awards: Awards;
   education: Education[];
-  skills: Skill[];
+  skills: SkillContainer[];
   additionalExperience: AdditionalExperienceType;
 };
 
 function Page({
   basicInfo,
   work,
+  skills,
   awards,
   education,
   additionalExperience,
@@ -53,6 +54,7 @@ function Page({
       <EducationSection education={education} />
       <AwardsSection awards={awards} />
       <AdditionalExperience additionalExperience={additionalExperience} />
+      <SkillsSection skills={skills} />
     </>
   );
 }
