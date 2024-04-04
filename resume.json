@@ -114,7 +114,7 @@
   ],
   "work": [
     {
-      "endDate": "Present",
+      "endDate": "Apr 2024",
       "highlights": [
         "I successfully built the Arabian Horse website [Arabian Horse](https://arabian-horse.topbusiness.io/) using PHP Laravel. This platform focuses on horse care, specifically tailored for Arabian breeds. To enhance backend management, I incorporated the Filament package, ensuring efficient content updates and streamlined administrative processes. This project reflects my commitment to delivering robust and user-friendly web solutions in the equestrian domain.",
         "Contributed to [SPA](https://spallia.com/), a laravel based web platform for one of the biggest beauty centers in Cairo, Implemented CRUD operations, search capabilities, and pagination within a web-based control panel. Implemented performant data querying by only selecting necessary columns and ensured reliability by creating seed files for comprehensive testing.",
@@ -162,7 +162,7 @@
       ],
       "name": "Top Business",
       "position": "Junior Software Engineer",
-      "startDate": "Jan 2023",
+      "startDate": "Oct 2022",
       "url": "https://topbusiness.io/"
     }
   ],
