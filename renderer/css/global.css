@@ -4,7 +4,7 @@ body {
   @apply antialiased md:bg-indigo-50;
   @apply print:bg-white;
 
-  font-size: 15px;
+  font-size: 14px;
 }
 
 a,
@@ -19,14 +19,14 @@ a:not(.tag):hover {
 @screen md {
   html,
   body {
-    font-size: 10px;
+    font-size: 8.3px;
   }
 }
 
 @screen print {
   html,
   body {
-    font-size: 10px;
+    font-size: 10.12px;
   }
 }
 

@@ -9,7 +9,6 @@ type SkillsProps = {
   skills: SkillContainer[];
 };
 function SkillsSection({ skills }: SkillsProps) {
-
   const skillContainersList = skills.map((skillContainer) => {
     return (
       <div className="flex row items-center ml-2">
