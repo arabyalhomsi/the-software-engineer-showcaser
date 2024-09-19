@@ -114,14 +114,107 @@
   ],
   "work": [
     {
-      "endDate": "Apr 2024",
+      "endDate": "PRESENT",
       "highlights": [
-        "I successfully built the Arabian Horse website [Arabian Horse](https://arabian-horse.topbusiness.io/) using PHP Laravel. This platform focuses on horse care, specifically tailored for Arabian breeds. To enhance backend management, I incorporated the Filament package, ensuring efficient content updates and streamlined administrative processes. This project reflects my commitment to delivering robust and user-friendly web solutions in the equestrian domain.",
-        "Contributed to [SPA](https://spallia.com/), a laravel based web platform for one of the biggest beauty centers in Cairo, Implemented CRUD operations, search capabilities, and pagination within a web-based control panel. Implemented performant data querying by only selecting necessary columns and ensured reliability by creating seed files for comprehensive testing.",
-        "Contributed to [Enviro Group](https://envirogroup.io/en), a waste recycling company, Developed a highly reliable laravel based dashboard, with full CRUD for all data models. also I heleped my team developing the interface by overrcoming complex javascript/DOM issues.",
-        "Played an integral role in the advancement of the [Solar Vally](https://solarvalleypv.com/en) project, highlighting remarkable programming proficiency through the conception of a dynamic dashboard and successful execution of a comprehensive CRUD system, featuring flawless image upload capabilities",
-        "Developed site modification [Makasip](https://makasip.com/), Dynamic Points System: Engineered Makasip's dynamic points system, rewarding users (10 points at login, up to 20 daily, stabilizing at 50), with an automated reset for inactivity, ensuring continuous engagement, Referral Link Innovation: Pioneered referral links, securing 10 points for initiators upon new user registration. Strategically amplified user acquisition and engagement.",
-        "Contributed to [Mamdouh portfolio](https://portfolio.motaweron.com/), a dynamic portfolio showcasing the expertise of an individual deeply engaged in trading and house rentals. Leveraging my skills in PHP and Laravel, I designed a user-friendly and visually appealing website that highlights their proficiency in the real estate and trading sectors. The platform seamlessly integrates features such as property listings, trading insights, and a streamlined user interface for potential clients. This project underscores my commitment to creating tailored and effective web solutions that cater to diverse professional portfolios.",
+        "Worked on the [Paymac](https://paymac.net/) company website, fixing issues, improving the design, and ensuring responsiveness across devices.",
+        "Contributed to the [Flove](https://flovegift.com/)Flove website and [App](https://play.google.com/store/apps/details?id=com.flovegift.flove_client&hl=en_US), a Saudi platform for buying gifts like flowers and chocolates, focusing on the product section and refactoring JavaScript for improved functionality.",
+        "Worked on the [Refine](https://refine-care.com/) website and [App](https://play.google.com/store/apps/details?id=com.paymac.refine_app&hl=en_US), adding a dropdown for 'Analysis Type,' enabling bulk updates, categorizing orders by status, implementing automatic cancellation of unpaid orders, and integrating map-based location capture for lab branches.",
+        "Worked on the [Vitamingy](https://vitamingy.com/en) ERP system, enabling clients to manage multiple addresses and select or add an address when placing a sale order. The system was developed using Livewire."
+      ],
+      "keywords": [
+        {
+          "link": "https://www.php.net/",
+          "name": "Php"
+        },
+        {
+          "link": "https://laravel.com/",
+          "name": "Laravel"
+        },
+        {
+          "link": "https://getbootstrap.com/",
+          "name": "Bootstrap"
+        },
+        {
+          "link": "https://www.tutorialspoint.com/laravel/laravel_ajax.htm",
+          "name": "Ajax"
+        },
+        {
+          "link": "https://jquery.com/",
+          "name": "JQuery"
+        },
+        {
+          "link": "https://www.mysql.com/",
+          "name": "Mysql"
+        },
+        {
+          "link": "https://laravel.com/docs/10.x/eloquent-resources",
+          "name": "Laravel Api"
+        },
+        {
+          "link": "https://livewire.laravel.com/",
+          "name": "Livewire"
+        },
+        {
+          "link": "https://alpinejs.dev/",
+          "name": "Alpinejs"
+        }
+      ],
+      "name": "Paymac",
+      "position": "Software Engineer",
+      "startDate": "Aug 2024",
+      "url": "https://paymac.net/"
+    },
+    {
+      "endDate": "Aug 2024 ( 3 month )",
+      "highlights": [
+        "Developed the [I Pluto](https://ipluto.app/) exam management feature on the Student Stage Online platform, enabling teachers to create exams by selecting questions and answers. Integrated front-end designs with the backend and implemented pages for managing exam units and details.",
+        "Contributed to the [Golden Host](https://goldenhost.co/) website and app, implementing features that prevent hosts from deleting apartments once rented and allowing users to rate apartments only once.",
+        "Worked on the [Golden Ticket](https://golden4tic.com/) website for buying and selling tickets, integrating a new front-end design with the backend and making modifications to enhance functionality."
+      ],
+      "keywords": [
+        {
+          "link": "https://www.php.net/",
+          "name": "Php"
+        },
+        {
+          "link": "https://laravel.com/",
+          "name": "Laravel"
+        },
+        {
+          "link": "https://getbootstrap.com/",
+          "name": "Bootstrap"
+        },
+        {
+          "link": "https://www.tutorialspoint.com/laravel/laravel_ajax.htm",
+          "name": "Ajax"
+        },
+        {
+          "link": "https://jquery.com/",
+          "name": "JQuery"
+        },
+        {
+          "link": "https://www.mysql.com/",
+          "name": "Mysql"
+        },
+        {
+          "link": "https://laravel.com/docs/10.x/eloquent-resources",
+          "name": "Laravel Api"
+        }
+      ],
+      "name": "Creative Minds",
+      "position": "Junior Software Engineer",
+      "startDate": "May 2024",
+      "url": "https://cems-it.com/"
+    },
+    {
+      "endDate": "Apr 2024 ( 1 year 6 months )",
+      "highlights": [
+        "Built the [Arabian Horse](https://arabian-horse.topbusiness.io/) website using PHP Laravel, focused on Arabian horse care. Integrated the Filament package for efficient content management and streamlined admin processes.",
+        "Contributed to [SPA](https://spallia.com/), a Laravel-based platform for a major Cairo beauty center. Implemented CRUD operations, search, pagination, and efficient data querying. Created seed files.",
+        "Contributed to [Enviro Group](https://envirogroup.io/en), a waste recycling company, Developed a highly reliable laravel based dashboard, with full CRUD for all data models.",
+        "Played an integral role in the advancement of the [Solar Vally](https://solarvalleypv.com/en) project, highlighting remarkable programming proficiency through the conception of a dynamic dashboard.",
+        "Developed [Makasip](https://makasip.com/) enhancements: dynamic points system (10-50 points with inactivity resets) and referral links (10 points for new user registrations), boosting engagement and acquisition.",
+        "Contributed to [Mamdouh portfolio](https://portfolio.motaweron.com/), a dynamic site for showcasing expertise in trading and real estate. Used PHP and Laravel to design a user-friendly platform with property listings",
         "Oversaw product inventory and collaborated with restaurant and cafe representatives, optimizing supply chain management for enhanced efficiency and [Loyalty](https://play.google.com/store/apps/details?id=com.topbusiness.walaaprovider)",
         "Designed and executed a project for a remote physics professor, enabling student education through the creation, response, and interaction with instructional videos.",
         "Contributed to a Laravel-based [university](https://faculty.topbusiness.io/) management system. Strengthened technical expertise and teamwork skills."
@@ -161,7 +254,7 @@
         }
       ],
       "name": "Top Business",
-      "position": "Junior Software Engineer",
+      "position": "Fresh Software Engineer",
       "startDate": "Oct 2022",
       "url": "https://topbusiness.io/"
     }
