@@ -1,8 +1,11 @@
 {
-  "version": "0.4.114",
+  "version": "0.4.142",
   "usesClientRouter": false,
   "manifestKeyMap": {},
   "baseServer": "/",
   "baseAssets": "/",
-  "includeAssetsImportedByServer": false
+  "includeAssetsImportedByServer": true,
+  "redirects": {},
+  "trailingSlash": false,
+  "disableUrlNormalization": false
 }
